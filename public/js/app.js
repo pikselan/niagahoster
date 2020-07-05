@@ -7293,6 +7293,30 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -43089,7 +43113,10 @@ var render = function() {
           _vm._l(_vm.hostingCategories, function(hostingCategory) {
             return _c(
               "div",
-              { key: hostingCategory.id, staticClass: "item-packet col-3" },
+              {
+                key: hostingCategory.id,
+                staticClass: "item-packet col-6 col-md-3 mb-3"
+              },
               [
                 _c("div", { staticClass: "card" }, [
                   _c(
@@ -43215,12 +43242,6 @@ var render = function() {
         _vm._v(" "),
         _vm._m(11),
         _vm._v(" "),
-        _vm._m(12),
-        _vm._v(" "),
-        _vm._m(13),
-        _vm._v(" "),
-        _vm._m(14),
-        _vm._v(" "),
         _c(
           "div",
           { staticClass: "col-12 text-center mt-4" },
@@ -43271,24 +43292,29 @@ var render = function() {
           1
         ),
         _vm._v(" "),
-        _vm._m(15)
+        _vm._m(12)
       ])
     ]),
     _vm._v(" "),
     _c("footer", { staticClass: "text-light" }, [
-      _vm._m(16),
+      _vm._m(13),
       _vm._v(" "),
       _c("div", { staticClass: "support container-fluid bg-primary" }, [
         _c("div", { staticClass: "container" }, [
           _c(
             "div",
             {
-              staticClass: "d-flex justify-content-between align-items-stretch"
+              staticClass:
+                "d-flex justify-content-between align-items-stretch flex-wrap"
             },
             [
-              _vm._m(17),
+              _vm._m(14),
               _vm._v(" "),
-              _c("div", { staticClass: "border-right border-light mx-3" }),
+              _vm._m(15),
+              _vm._v(" "),
+              _c("div", {
+                staticClass: "border-right border-light mx-3 d-none d-xl-block"
+              }),
               _vm._v(" "),
               _c(
                 "div",
@@ -43303,7 +43329,20 @@ var render = function() {
                         "router-link",
                         {
                           staticClass:
-                            "btn btn-outline-light btn-lg text-light rounded-pill mr-4",
+                            "btn btn-outline-light btn-lg text-light rounded-pill mr-4 d-none d-lg-block",
+                          attrs: { to: "/" }
+                        },
+                        [
+                          _c("i", { staticClass: "fas fa-comments" }),
+                          _vm._v("Live\n                                Chat")
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "router-link",
+                        {
+                          staticClass:
+                            "btn btn-outline-light text-light rounded-pill d-block d-lg-none",
                           attrs: { to: "/" }
                         },
                         [
@@ -43321,7 +43360,7 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm._m(18)
+      _vm._m(16)
     ])
   ])
 }
@@ -43443,7 +43482,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "col-lg-6" }, [
               _c("img", {
-                staticClass: "img-fluid",
+                staticClass: "img-fluid mt-3",
                 attrs: {
                   src: "/assets/svg/illustration_banner_php_hosting.svg",
                   alt: ""
@@ -43461,16 +43500,16 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "section",
-      { staticClass: "logo-php-hosting container pt-5 mt-5" },
+      { staticClass: "logo-php-hosting container pt-lg-5 mt-5" },
       [
         _c(
           "div",
           {
             staticClass:
-              "d-flex justify-content-center align-items-center text-center"
+              "d-flex justify-content-center align-items-center align-items-stretch text-center flex-wrap"
           },
           [
-            _c("div", { staticClass: "col-3" }, [
+            _c("div", { staticClass: "col-6 col-md-3" }, [
               _c("div", { staticClass: "image" }, [
                 _c("img", {
                   staticClass: "img-fluid",
@@ -43484,7 +43523,7 @@ var staticRenderFns = [
               _c("h6", [_vm._v("PHP Zend Guard Loader")])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-3" }, [
+            _c("div", { staticClass: "col-6 col-md-3" }, [
               _c("div", { staticClass: "image" }, [
                 _c("img", {
                   staticClass: "img-fluid",
@@ -43498,7 +43537,7 @@ var staticRenderFns = [
               _c("h6", [_vm._v("PHP Composer")])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-3" }, [
+            _c("div", { staticClass: "col-6 col-md-3" }, [
               _c("div", { staticClass: "image" }, [
                 _c("img", {
                   staticClass: "img-fluid",
@@ -43550,10 +43589,10 @@ var staticRenderFns = [
           "div",
           {
             staticClass:
-              "container mb-5 d-flex justify-content-center align-items-center text-center"
+              "container mb-5 d-flex justify-content-center align-items-center text-center flex-wrap"
           },
           [
-            _c("div", { staticClass: "col-5" }, [
+            _c("div", { staticClass: "col-12 col-md-6 col-lg-5" }, [
               _c("ul", { staticClass: "list-group" }, [
                 _c("li", { staticClass: "list-group-item" }, [
                   _c("div", { staticClass: "row" }, [
@@ -43605,7 +43644,7 @@ var staticRenderFns = [
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-5" }, [
+            _c("div", { staticClass: "col-12 col-md-6 col-lg-5" }, [
               _c("ul", { staticClass: "list-group" }, [
                 _c("li", { staticClass: "list-group-item" }, [
                   _c("div", { staticClass: "row" }, [
@@ -43666,14 +43705,14 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { staticClass: "all-in-packet container mt-5" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-12 text-center" }, [
+      _c("div", { staticClass: "row text-center" }, [
+        _c("div", { staticClass: "col-12" }, [
           _c("h2", { staticClass: " mb-5" }, [
             _vm._v("Semua Paket Hosting Sudah Termasuk")
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4 text-center mb-5" }, [
+        _c("div", { staticClass: "col-6 col-md-4 mb-5" }, [
           _c("img", {
             attrs: { src: "/assets/svg/all_in_packet_all_version.svg", alt: "" }
           }),
@@ -43689,7 +43728,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4 text-center mb-5" }, [
+        _c("div", { staticClass: "col-6 col-md-4 mb-5" }, [
           _c("img", {
             attrs: { src: "/assets/svg/all_in_packet_mysql.svg", alt: "" }
           }),
@@ -43705,7 +43744,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4 text-center mb-5" }, [
+        _c("div", { staticClass: "col-6 col-md-4 mb-5" }, [
           _c("img", {
             attrs: { src: "/assets/svg/all_in_packet_cpanel.svg", alt: "" }
           }),
@@ -43721,7 +43760,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4 text-center mb-5" }, [
+        _c("div", { staticClass: "col-6 col-md-4 mb-5" }, [
           _c("img", {
             attrs: { src: "/assets/svg/all_in_packet_uptime.svg", alt: "" }
           }),
@@ -43737,7 +43776,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4 text-center mb-5" }, [
+        _c("div", { staticClass: "col-6 col-md-4 mb-5" }, [
           _c("img", {
             attrs: { src: "/assets/svg/all_in_packet_innodb.svg", alt: "" }
           }),
@@ -43755,7 +43794,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-4 text-center mb-5" }, [
+        _c("div", { staticClass: "col-6 col-md-4 mb-5" }, [
           _c("img", {
             attrs: {
               src: "/assets/svg/all_in_packet_mysql_remote.svg",
@@ -43840,142 +43879,134 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-3" }, [
-      _vm._v("\n                IcePHP"),
-      _c("br"),
-      _vm._v("apc"),
-      _c("br"),
-      _vm._v("apcu"),
-      _c("br"),
-      _vm._v("apm"),
-      _c("br"),
-      _vm._v("ares"),
-      _c("br"),
-      _vm._v("bcmath"),
-      _c("br"),
-      _vm._v("bcompiler"),
-      _c("br"),
-      _vm._v("big_int"),
-      _c("br"),
-      _vm._v("bitset"),
-      _c("br"),
-      _vm._v("bloomy"),
-      _c("br"),
-      _vm._v("bz2_filter"),
-      _c("br"),
-      _vm._v("clamav"),
-      _c("br"),
-      _vm._v("coin_acceptor"),
-      _c("br"),
-      _vm._v("crack"),
-      _c("br"),
-      _vm._v("dba\n            ")
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-3" }, [
-      _vm._v("\n                http"),
-      _c("br"),
-      _vm._v("huffman"),
-      _c("br"),
-      _vm._v("idn"),
-      _c("br"),
-      _vm._v("igbinary"),
-      _c("br"),
-      _vm._v("imagick"),
-      _c("br"),
-      _vm._v("imap"),
-      _c("br"),
-      _vm._v("inclued"),
-      _c("br"),
-      _vm._v("inotify"),
-      _c("br"),
-      _vm._v("interbase"),
-      _c("br"),
-      _vm._v("intl"),
-      _c("br"),
-      _vm._v("ioncube_loader"),
-      _c("br"),
-      _vm._v("ioncube_loader_4"),
-      _c("br"),
-      _vm._v("jsmin"),
-      _c("br"),
-      _vm._v("json"),
-      _c("br"),
-      _vm._v("ldap\n            ")
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-3" }, [
-      _vm._v("\n                nd_pdo_mysql"),
-      _c("br"),
-      _vm._v("oauth"),
-      _c("br"),
-      _vm._v("oci8"),
-      _c("br"),
-      _vm._v("adbc"),
-      _c("br"),
-      _vm._v("opcache"),
-      _c("br"),
-      _vm._v("pdf"),
-      _c("br"),
-      _vm._v("pdo"),
-      _c("br"),
-      _vm._v("pdo_dblib"),
-      _c("br"),
-      _vm._v("pdo_firebird"),
-      _c("br"),
-      _vm._v("pdo_mysql"),
-      _c("br"),
-      _vm._v("pdo_odbc"),
-      _c("br"),
-      _vm._v("pdo_pgsql"),
-      _c("br"),
-      _vm._v("pdo_sqlite"),
-      _c("br"),
-      _vm._v("pdo_pgsql"),
-      _c("br"),
-      _vm._v("phalcom\n            ")
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-3" }, [
-      _vm._v("\n                stats"),
-      _c("br"),
-      _vm._v("stem"),
-      _c("br"),
-      _vm._v("stomp"),
-      _c("br"),
-      _vm._v("suhosin"),
-      _c("br"),
-      _vm._v("sybase_ct"),
-      _c("br"),
-      _vm._v("sysvmsg"),
-      _c("br"),
-      _vm._v("sysvshm"),
-      _c("br"),
-      _vm._v("tidy"),
-      _c("br"),
-      _vm._v("timezonedb"),
-      _c("br"),
-      _vm._v("trader"),
-      _c("br"),
-      _vm._v("translit"),
-      _c("br"),
-      _vm._v("uploadprogress"),
-      _c("br"),
-      _vm._v("uri_template"),
-      _c("br"),
-      _vm._v("uuid\n            ")
+    return _c("div", { staticClass: "col-12" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-6 col-md-3 order-1 order-md-1" }, [
+          _vm._v("\n                        IcePHP"),
+          _c("br"),
+          _vm._v("apc"),
+          _c("br"),
+          _vm._v("apcu"),
+          _c("br"),
+          _vm._v("apm"),
+          _c("br"),
+          _vm._v("ares"),
+          _c("br"),
+          _vm._v("bcmath"),
+          _c("br"),
+          _vm._v("bcompiler"),
+          _c("br"),
+          _vm._v("big_int"),
+          _c("br"),
+          _vm._v("bitset"),
+          _c("br"),
+          _vm._v("bloomy"),
+          _c("br"),
+          _vm._v("bz2_filter"),
+          _c("br"),
+          _vm._v("clamav"),
+          _c("br"),
+          _vm._v("coin_acceptor"),
+          _c("br"),
+          _vm._v("crack"),
+          _c("br"),
+          _vm._v("dba\n                    ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-6 col-md-3 order-3 order-md-2" }, [
+          _vm._v("\n                        http"),
+          _c("br"),
+          _vm._v("huffman"),
+          _c("br"),
+          _vm._v("idn"),
+          _c("br"),
+          _vm._v("igbinary"),
+          _c("br"),
+          _vm._v("imagick"),
+          _c("br"),
+          _vm._v("imap"),
+          _c("br"),
+          _vm._v("inclued"),
+          _c("br"),
+          _vm._v("inotify"),
+          _c("br"),
+          _vm._v("interbase"),
+          _c("br"),
+          _vm._v("intl"),
+          _c("br"),
+          _vm._v("ioncube_loader"),
+          _c("br"),
+          _vm._v("ioncube_loader_4"),
+          _c("br"),
+          _vm._v("jsmin"),
+          _c("br"),
+          _vm._v("json"),
+          _c("br"),
+          _vm._v("ldap\n                    ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-6 col-md-3 order-2 order-md-3" }, [
+          _vm._v("\n                        nd_pdo_mysql"),
+          _c("br"),
+          _vm._v("oauth"),
+          _c("br"),
+          _vm._v("oci8"),
+          _c("br"),
+          _vm._v("adbc"),
+          _c("br"),
+          _vm._v("opcache"),
+          _c("br"),
+          _vm._v("pdf"),
+          _c("br"),
+          _vm._v("pdo"),
+          _c("br"),
+          _vm._v("pdo_dblib"),
+          _c("br"),
+          _vm._v("pdo_firebird"),
+          _c("br"),
+          _vm._v("pdo_mysql"),
+          _c("br"),
+          _vm._v("pdo_odbc"),
+          _c("br"),
+          _vm._v("pdo_pgsql"),
+          _c("br"),
+          _vm._v("pdo_sqlite"),
+          _c("br"),
+          _vm._v("pdo_pgsql"),
+          _c("br"),
+          _vm._v("phalcom\n                    ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-6 col-md-3 order-4 order-md-4" }, [
+          _vm._v("\n                        stats"),
+          _c("br"),
+          _vm._v("stem"),
+          _c("br"),
+          _vm._v("stomp"),
+          _c("br"),
+          _vm._v("suhosin"),
+          _c("br"),
+          _vm._v("sybase_ct"),
+          _c("br"),
+          _vm._v("sysvmsg"),
+          _c("br"),
+          _vm._v("sysvshm"),
+          _c("br"),
+          _vm._v("tidy"),
+          _c("br"),
+          _vm._v("timezonedb"),
+          _c("br"),
+          _vm._v("trader"),
+          _c("br"),
+          _vm._v("translit"),
+          _c("br"),
+          _vm._v("uploadprogress"),
+          _c("br"),
+          _vm._v("uri_template"),
+          _c("br"),
+          _vm._v("uuid\n                    ")
+        ])
+      ])
     ])
   },
   function() {
@@ -44004,40 +44035,46 @@ var staticRenderFns = [
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "px-5" }, [
-            _c("div", { staticClass: "pl-5 ml-5 row" }, [
-              _c("i", {
-                staticClass: "fab fa-facebook-square fa-2x",
-                staticStyle: { color: "#23599B" }
-              }),
+          _c("div", { staticClass: "pr-lg-5" }, [
+            _c("div", { staticClass: "d-flex justify-content-end flex-wrap" }, [
+              _c("div", { staticClass: "d-flex" }, [
+                _c("i", {
+                  staticClass: "fab fa-facebook-square fa-2x",
+                  staticStyle: { color: "#23599B" }
+                }),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  { staticClass: "tooltip-text h6 mr-2 text-black-50 small" },
+                  [_vm._v("80k")]
+                )
+              ]),
               _vm._v(" "),
-              _c(
-                "span",
-                { staticClass: "tooltip-text h6 mr-2 text-black-50 small" },
-                [_vm._v("80k")]
-              ),
+              _c("div", { staticClass: "d-flex" }, [
+                _c("i", {
+                  staticClass: "fab fa-twitter-square twitter fa-2x",
+                  staticStyle: { color: "#00AEF1" }
+                }),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  { staticClass: "tooltip-text h6 mr-2 text-black-50 small" },
+                  [_vm._v("450")]
+                )
+              ]),
               _vm._v(" "),
-              _c("i", {
-                staticClass: "fab fa-twitter-square twitter fa-2x",
-                staticStyle: { color: "#00AEF1" }
-              }),
-              _vm._v(" "),
-              _c(
-                "span",
-                { staticClass: "tooltip-text h6 mr-2 text-black-50 small" },
-                [_vm._v("450")]
-              ),
-              _vm._v(" "),
-              _c("i", {
-                staticClass: "fab fa-google-plus-square fa-2x",
-                staticStyle: { color: "#FC4A35" }
-              }),
-              _vm._v(" "),
-              _c(
-                "span",
-                { staticClass: "tooltip-text h6 mr-2 text-black-50 small" },
-                [_vm._v("1900")]
-              )
+              _c("div", { staticClass: "d-flex" }, [
+                _c("i", {
+                  staticClass: "fab fa-google-plus-square fa-2x",
+                  staticStyle: { color: "#FC4A35" }
+                }),
+                _vm._v(" "),
+                _c(
+                  "span",
+                  { staticClass: "tooltip-text h6 mr-2 text-black-50 small" },
+                  [_vm._v("1900")]
+                )
+              ])
             ])
           ])
         ])
@@ -44048,8 +44085,21 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", {}, [
+    return _c("div", { staticClass: "d-none d-lg-block" }, [
       _c("h2", [
+        _vm._v("\n                            Perlu "),
+        _c("b", [_vm._v("BANTUAN?")]),
+        _vm._v(" Hubungi Kami :\n                            "),
+        _c("b", [_vm._v("0274-5305505")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-block d-lg-none" }, [
+      _c("h2", { staticClass: "h4" }, [
         _vm._v("\n                            Perlu "),
         _c("b", [_vm._v("BANTUAN?")]),
         _vm._v(" Hubungi Kami :\n                            "),

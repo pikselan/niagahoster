@@ -11055,7 +11055,13 @@ footer .social .tooltip-text:before {
 }
 
 footer .support {
-  padding: 65px 0;
+  padding: 25px 0;
+}
+
+@media (min-width: 1200px) {
+  footer .support {
+    padding: 65px 0;
+  }
 }
 
 footer .support svg {

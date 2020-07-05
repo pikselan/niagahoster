@@ -135,17 +135,17 @@
                         <img
                             src="/assets/svg/illustration_banner_php_hosting.svg"
                             alt=""
-                            class="img-fluid"
+                            class="img-fluid mt-3"
                         />
                     </div>
                 </div>
             </div>
         </section>
-        <section class="logo-php-hosting container pt-5 mt-5">
+        <section class="logo-php-hosting container pt-lg-5 mt-5">
             <div
-                class="d-flex justify-content-center align-items-center text-center"
+                class="d-flex justify-content-center align-items-center align-items-stretch text-center flex-wrap"
             >
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <div class="image">
                         <img
                             src="/assets/svg/ic_php_hosting_zendguard.svg"
@@ -155,7 +155,7 @@
                     </div>
                     <h6>PHP Zend Guard Loader</h6>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <div class="image">
                         <img
                             src="/assets/svg/ic_php_hosting_composer.svg"
@@ -166,7 +166,7 @@
                     <h6>PHP Composer</h6>
                 </div>
 
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <div class="image">
                         <img
                             src="/assets/svg/ic_php_hosting_ioncube.svg"
@@ -189,7 +189,7 @@
                     </h2>
                 </div>
                 <div
-                    class="item-packet col-3"
+                    class="item-packet col-6 col-md-3 mb-3"
                     v-for="hostingCategory in hostingCategories"
                     :key="hostingCategory.id"
                 >
@@ -225,9 +225,9 @@
                     <h2 class=" mb-5">Powerful dengan Limit PHP yang Besar</h2>
                 </div>
                 <div
-                    class="container mb-5 d-flex justify-content-center align-items-center text-center"
+                    class="container mb-5 d-flex justify-content-center align-items-center text-center flex-wrap"
                 >
-                    <div class="col-5">
+                    <div class="col-12 col-md-6 col-lg-5">
                         <ul class="list-group">
                             <li class="list-group-item">
                                 <div class="row">
@@ -267,7 +267,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-5">
+                    <div class="col-12 col-md-6 col-lg-5">
                         <ul class="list-group">
                             <li class="list-group-item">
                                 <div class="row">
@@ -312,11 +312,11 @@
         </section>
         <div class="divider"></div>
         <section class="all-in-packet container mt-5">
-            <div class="row">
-                <div class="col-12 text-center">
+            <div class="row text-center">
+                <div class="col-12">
                     <h2 class=" mb-5">Semua Paket Hosting Sudah Termasuk</h2>
                 </div>
-                <div class="col-4 text-center mb-5">
+                <div class="col-6 col-md-4 mb-5">
                     <img
                         src="/assets/svg/all_in_packet_all_version.svg"
                         alt=""
@@ -327,7 +327,7 @@
                         Anda!
                     </h6>
                 </div>
-                <div class="col-4 text-center mb-5">
+                <div class="col-6 col-md-4 mb-5">
                     <img src="/assets/svg/all_in_packet_mysql.svg" alt="" />
                     <h3 class="h5 font-weight-bold">MySQL Versi 5.6</h3>
                     <h6>
@@ -335,7 +335,7 @@
                         fitur.
                     </h6>
                 </div>
-                <div class="col-4 text-center mb-5">
+                <div class="col-6 col-md-4 mb-5">
                     <img src="/assets/svg/all_in_packet_cpanel.svg" alt="" />
                     <h3 class="h5 font-weight-bold">Panel Hosting cPanel</h3>
                     <h6>
@@ -343,7 +343,7 @@
                         hati Anda
                     </h6>
                 </div>
-                <div class="col-4 text-center mb-5">
+                <div class="col-6 col-md-4 mb-5">
                     <img src="/assets/svg/all_in_packet_uptime.svg" alt="" />
                     <h3 class="h5 font-weight-bold">Garansi Uptime 99.9%</h3>
                     <h6>
@@ -351,7 +351,7 @@
                         24/7.
                     </h6>
                 </div>
-                <div class="col-4 text-center mb-5">
+                <div class="col-6 col-md-4 mb-5">
                     <img src="/assets/svg/all_in_packet_innodb.svg" alt="" />
                     <h3 class="h5 font-weight-bold">
                         Database InnoDB Unlimited
@@ -361,7 +361,7 @@
                         Anda.
                     </h6>
                 </div>
-                <div class="col-4 text-center mb-5">
+                <div class="col-6 col-md-4 mb-5">
                     <img
                         src="/assets/svg/all_in_packet_mysql_remote.svg"
                         alt=""
@@ -432,17 +432,21 @@
                         Modul Lengkap untuk Menjalankan Aplikasi PHP Anda
                     </h2>
                 </div>
-                <div class="col-3">
-                    IcePHP<br />apc<br />apcu<br />apm<br />ares<br />bcmath<br />bcompiler<br />big_int<br />bitset<br />bloomy<br />bz2_filter<br />clamav<br />coin_acceptor<br />crack<br />dba
-                </div>
-                <div class="col-3">
-                    http<br />huffman<br />idn<br />igbinary<br />imagick<br />imap<br />inclued<br />inotify<br />interbase<br />intl<br />ioncube_loader<br />ioncube_loader_4<br />jsmin<br />json<br />ldap
-                </div>
-                <div class="col-3">
-                    nd_pdo_mysql<br />oauth<br />oci8<br />adbc<br />opcache<br />pdf<br />pdo<br />pdo_dblib<br />pdo_firebird<br />pdo_mysql<br />pdo_odbc<br />pdo_pgsql<br />pdo_sqlite<br />pdo_pgsql<br />phalcom
-                </div>
-                <div class="col-3">
-                    stats<br />stem<br />stomp<br />suhosin<br />sybase_ct<br />sysvmsg<br />sysvshm<br />tidy<br />timezonedb<br />trader<br />translit<br />uploadprogress<br />uri_template<br />uuid
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6 col-md-3 order-1 order-md-1">
+                            IcePHP<br />apc<br />apcu<br />apm<br />ares<br />bcmath<br />bcompiler<br />big_int<br />bitset<br />bloomy<br />bz2_filter<br />clamav<br />coin_acceptor<br />crack<br />dba
+                        </div>
+                        <div class="col-6 col-md-3 order-3 order-md-2">
+                            http<br />huffman<br />idn<br />igbinary<br />imagick<br />imap<br />inclued<br />inotify<br />interbase<br />intl<br />ioncube_loader<br />ioncube_loader_4<br />jsmin<br />json<br />ldap
+                        </div>
+                        <div class="col-6 col-md-3 order-2 order-md-3">
+                            nd_pdo_mysql<br />oauth<br />oci8<br />adbc<br />opcache<br />pdf<br />pdo<br />pdo_dblib<br />pdo_firebird<br />pdo_mysql<br />pdo_odbc<br />pdo_pgsql<br />pdo_sqlite<br />pdo_pgsql<br />phalcom
+                        </div>
+                        <div class="col-6 col-md-3 order-4 order-md-4">
+                            stats<br />stem<br />stomp<br />suhosin<br />sybase_ct<br />sysvmsg<br />sysvshm<br />tidy<br />timezonedb<br />trader<br />translit<br />uploadprogress<br />uri_template<br />uuid
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 text-center mt-4">
                     <router-link
@@ -491,33 +495,39 @@
                                 Bagikan jika Anda menyukai halaman ini.
                             </h6>
                         </div>
-                        <div class="px-5">
-                            <div class="pl-5 ml-5 row">
-                                <i
-                                    class="fab fa-facebook-square fa-2x"
-                                    style="color:#23599B;"
-                                >
-                                </i>
-                                <span
-                                    class="tooltip-text h6 mr-2 text-black-50 small"
-                                    >80k</span
-                                >
-                                <i
-                                    class="fab fa-twitter-square twitter fa-2x"
-                                    style="color:#00AEF1;"
-                                ></i>
-                                <span
-                                    class="tooltip-text h6 mr-2 text-black-50 small"
-                                    >450</span
-                                >
-                                <i
-                                    class="fab fa-google-plus-square fa-2x"
-                                    style="color:#FC4A35;"
-                                ></i>
-                                <span
-                                    class="tooltip-text h6 mr-2 text-black-50 small"
-                                    >1900</span
-                                >
+                        <div class="pr-lg-5">
+                            <div class="d-flex justify-content-end flex-wrap">
+                                <div class="d-flex">
+                                    <i
+                                        class="fab fa-facebook-square fa-2x"
+                                        style="color:#23599B;"
+                                    >
+                                    </i>
+                                    <span
+                                        class="tooltip-text h6 mr-2 text-black-50 small"
+                                        >80k</span
+                                    >
+                                </div>
+                                <div class="d-flex">
+                                    <i
+                                        class="fab fa-twitter-square twitter fa-2x"
+                                        style="color:#00AEF1;"
+                                    ></i>
+                                    <span
+                                        class="tooltip-text h6 mr-2 text-black-50 small"
+                                        >450</span
+                                    >
+                                </div>
+                                <div class="d-flex">
+                                    <i
+                                        class="fab fa-google-plus-square fa-2x"
+                                        style="color:#FC4A35;"
+                                    ></i>
+                                    <span
+                                        class="tooltip-text h6 mr-2 text-black-50 small"
+                                        >1900</span
+                                    >
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -526,22 +536,36 @@
             <div class="support container-fluid bg-primary">
                 <div class="container">
                     <div
-                        class="d-flex justify-content-between align-items-stretch"
+                        class="d-flex justify-content-between align-items-stretch flex-wrap"
                     >
-                        <div class="">
+                        <div class="d-none d-lg-block">
                             <h2>
                                 Perlu <b>BANTUAN?</b> Hubungi Kami :
                                 <b>0274-5305505</b>
                             </h2>
                         </div>
-                        <div class="border-right border-light mx-3"></div>
+                        <div class="d-block d-lg-none">
+                            <h2 class="h4">
+                                Perlu <b>BANTUAN?</b> Hubungi Kami :
+                                <b>0274-5305505</b>
+                            </h2>
+                        </div>
+                        <div
+                            class="border-right border-light mx-3 d-none d-xl-block"
+                        ></div>
                         <div
                             class="d-flex justify-content-end align-items-center"
                         >
                             <div>
                                 <router-link
                                     :to="'/'"
-                                    class="btn btn-outline-light btn-lg text-light rounded-pill mr-4"
+                                    class="btn btn-outline-light btn-lg text-light rounded-pill mr-4 d-none d-lg-block"
+                                    ><i class="fas fa-comments"></i>Live
+                                    Chat</router-link
+                                >
+                                <router-link
+                                    :to="'/'"
+                                    class="btn btn-outline-light text-light rounded-pill d-block d-lg-none"
                                     ><i class="fas fa-comments"></i>Live
                                     Chat</router-link
                                 >
