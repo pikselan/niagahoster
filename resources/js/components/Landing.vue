@@ -193,24 +193,99 @@
                     v-for="hostingCategory in hostingCategories"
                     :key="hostingCategory.id"
                 >
-                    <div class="card">
+                    <div
+                        class="card"
+                        v-bind:class="{
+                            'border-primary': hostingCategory.best
+                        }"
+                    >
                         <ul class="list-group list-group-flush rounded-0">
-                            <li class="list-group-item">
-                                {{ hostingCategory.name_category }}
+                            <div
+                                class="d-none best"
+                                v-bind:class="{
+                                    'd-block': hostingCategory.best
+                                }"
+                            >
+                                <img src="/assets/svg/best.svg" alt="" />
+                            </div>
+                            <li
+                                class="list-group-item"
+                                v-bind:class="{
+                                    'bg-primary text-light border-primary':
+                                        hostingCategory.best
+                                }"
+                            >
+                                <h2 class="h4 font-weight-bold">
+                                    {{ hostingCategory.name_category }}
+                                </h2>
+                            </li>
+                            <li
+                                class="list-group-item"
+                                v-bind:class="{
+                                    'bg-primary text-light border-primary':
+                                        hostingCategory.best
+                                }"
+                            >
+                                <h2 class="h6">
+                                    <del>
+                                        Rp
+                                        {{
+                                            formatNum(hostingCategory.price)
+                                        }}</del
+                                    >
+                                </h2>
+                                <h2 class="h4">
+                                    <b
+                                        >Rp
+                                        {{
+                                            formatNum(hostingCategory.discount)
+                                        }} </b
+                                    >/bln
+                                </h2>
+                            </li>
+                            <li
+                                class="list-group-item"
+                                v-bind:class="{
+                                    'text-light med-gray': hostingCategory.best
+                                }"
+                            >
+                                <b>
+                                    {{
+                                        formatNum(
+                                            JSON.stringify(
+                                                JSON.parse(hostingCategory.data)
+                                                    .user
+                                            )
+                                        )
+                                    }}
+                                </b>
+                                Pengguna Terdaftar
                             </li>
                             <li class="list-group-item">
-                                Rp {{ hostingCategory.price }}<br />
-                                Rp {{ hostingCategory.discount }}/bln
-                            </li>
-                            <li class="list-group-item">
-                                938 Pengguna Terdaftar
-                            </li>
-                            <li class="list-group-item">
-                                <i class="fas fa-star"></i>
-                                0.5X RESOURCE Powerful
+                                <h6 class="font-weight-bold">
+                                    {{
+                                        JSON.stringify(
+                                            JSON.parse(hostingCategory.data)
+                                                .power
+                                        )
+                                    }}
+                                    RESOURCE POWER
+                                </h6>
+                                <ul>
+                                    <li>
+                                        Test
+                                    </li>
+                                </ul>
+
+                                <div>{{ hostingCategory.data }}</div>
+
                                 <router-link
                                     :to="'/'"
                                     class="btn btn-outline-dark rounded-pill font-weight-bold mt-5 mb-3"
+                                    v-bind:class="{
+                                        'bg-primary text-light border-primary':
+                                            hostingCategory.best
+                                    }"
                                     >Pilih Sekarang</router-link
                                 >
                             </li>
@@ -988,7 +1063,12 @@ export default {
         loadData() {
             axios.get("/api/hosting_category").then(response => {
                 this.hostingCategories = response.data;
+                console.log(this.hostingCategories.data);
             });
+        },
+        formatNum(value) {
+            let val = (value / 1).toFixed(0).replace(".", ",");
+            return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
         }
     }
 };

@@ -7347,6 +7347,81 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -7362,7 +7437,12 @@ __webpack_require__.r(__webpack_exports__);
 
       axios.get("/api/hosting_category").then(function (response) {
         _this.hostingCategories = response.data;
+        console.log(_this.hostingCategories.data);
       });
+    },
+    formatNum: function formatNum(value) {
+      var val = (value / 1).toFixed(0).replace(".", ",");
+      return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     }
   }
 });
@@ -43148,61 +43228,156 @@ var render = function() {
                 staticClass: "item-packet col-6 col-md-3 mb-3"
               },
               [
-                _c("div", { staticClass: "card" }, [
-                  _c(
-                    "ul",
-                    { staticClass: "list-group list-group-flush rounded-0" },
-                    [
-                      _c("li", { staticClass: "list-group-item" }, [
-                        _vm._v(
-                          "\n                            " +
-                            _vm._s(hostingCategory.name_category) +
-                            "\n                        "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { staticClass: "list-group-item" }, [
-                        _vm._v(
-                          "\n                            Rp " +
-                            _vm._s(hostingCategory.price)
+                _c(
+                  "div",
+                  {
+                    staticClass: "card",
+                    class: {
+                      "border-primary": hostingCategory.best
+                    }
+                  },
+                  [
+                    _c(
+                      "ul",
+                      { staticClass: "list-group list-group-flush rounded-0" },
+                      [
+                        _c(
+                          "div",
+                          {
+                            staticClass: "d-none best",
+                            class: {
+                              "d-block": hostingCategory.best
+                            }
+                          },
+                          [
+                            _c("img", {
+                              attrs: { src: "/assets/svg/best.svg", alt: "" }
+                            })
+                          ]
                         ),
-                        _c("br"),
-                        _vm._v(
-                          "\n                            Rp " +
-                            _vm._s(hostingCategory.discount) +
-                            "/bln\n                        "
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          {
+                            staticClass: "list-group-item",
+                            class: {
+                              "bg-primary text-light border-primary":
+                                hostingCategory.best
+                            }
+                          },
+                          [
+                            _c("h2", { staticClass: "h4 font-weight-bold" }, [
+                              _vm._v(
+                                "\n                                " +
+                                  _vm._s(hostingCategory.name_category) +
+                                  "\n                            "
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          {
+                            staticClass: "list-group-item",
+                            class: {
+                              "bg-primary text-light border-primary":
+                                hostingCategory.best
+                            }
+                          },
+                          [
+                            _c("h2", { staticClass: "h6" }, [
+                              _c("del", [
+                                _vm._v(
+                                  "\n                                    Rp\n                                    " +
+                                    _vm._s(_vm.formatNum(hostingCategory.price))
+                                )
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("h2", { staticClass: "h4" }, [
+                              _c("b", [
+                                _vm._v(
+                                  "Rp\n                                    " +
+                                    _vm._s(
+                                      _vm.formatNum(hostingCategory.discount)
+                                    ) +
+                                    " "
+                                )
+                              ]),
+                              _vm._v("/bln\n                            ")
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          {
+                            staticClass: "list-group-item",
+                            class: {
+                              "text-light med-gray": hostingCategory.best
+                            }
+                          },
+                          [
+                            _c("b", [
+                              _vm._v(
+                                "\n                                " +
+                                  _vm._s(
+                                    _vm.formatNum(
+                                      JSON.stringify(
+                                        JSON.parse(hostingCategory.data).user
+                                      )
+                                    )
+                                  ) +
+                                  "\n                            "
+                              )
+                            ]),
+                            _vm._v(
+                              "\n                            Pengguna Terdaftar\n                        "
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          { staticClass: "list-group-item" },
+                          [
+                            _c("h6", { staticClass: "font-weight-bold" }, [
+                              _vm._v(
+                                "\n                                " +
+                                  _vm._s(
+                                    JSON.stringify(
+                                      JSON.parse(hostingCategory.data).power
+                                    )
+                                  ) +
+                                  "\n                                RESOURCE POWER\n                            "
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _vm._m(5, true),
+                            _vm._v(" "),
+                            _c("div", [_vm._v(_vm._s(hostingCategory.data))]),
+                            _vm._v(" "),
+                            _c(
+                              "router-link",
+                              {
+                                staticClass:
+                                  "btn btn-outline-dark rounded-pill font-weight-bold mt-5 mb-3",
+                                class: {
+                                  "bg-primary text-light border-primary":
+                                    hostingCategory.best
+                                },
+                                attrs: { to: "/" }
+                              },
+                              [_vm._v("Pilih Sekarang")]
+                            )
+                          ],
+                          1
                         )
-                      ]),
-                      _vm._v(" "),
-                      _c("li", { staticClass: "list-group-item" }, [
-                        _vm._v(
-                          "\n                            938 Pengguna Terdaftar\n                        "
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "li",
-                        { staticClass: "list-group-item" },
-                        [
-                          _c("i", { staticClass: "fas fa-star" }),
-                          _vm._v(
-                            "\n                            0.5X RESOURCE Powerful\n                            "
-                          ),
-                          _c(
-                            "router-link",
-                            {
-                              staticClass:
-                                "btn btn-outline-dark rounded-pill font-weight-bold mt-5 mb-3",
-                              attrs: { to: "/" }
-                            },
-                            [_vm._v("Pilih Sekarang")]
-                          )
-                        ],
-                        1
-                      )
-                    ]
-                  )
-                ])
+                      ]
+                    )
+                  ]
+                )
               ]
             )
           })
@@ -43211,11 +43386,11 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _vm._m(5),
+    _vm._m(6),
     _vm._v(" "),
     _c("div", { staticClass: "divider" }),
     _vm._v(" "),
-    _vm._m(6),
+    _vm._m(7),
     _vm._v(" "),
     _c("div", { staticClass: "divider" }),
     _vm._v(" "),
@@ -43227,7 +43402,7 @@ var render = function() {
       [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
-            _vm._m(7),
+            _vm._m(8),
             _vm._v(" "),
             _c(
               "div",
@@ -43239,7 +43414,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(8),
+                _vm._m(9),
                 _vm._v(" "),
                 _c("p", { staticClass: "small mt-3 font-weight-light" }, [
                   _vm._v(
@@ -43260,7 +43435,7 @@ var render = function() {
               1
             ),
             _vm._v(" "),
-            _vm._m(9)
+            _vm._m(10)
           ])
         ])
       ]
@@ -43268,9 +43443,9 @@ var render = function() {
     _vm._v(" "),
     _c("section", { staticClass: "list-module container pt-5 mt-5" }, [
       _c("div", { staticClass: "row" }, [
-        _vm._m(10),
-        _vm._v(" "),
         _vm._m(11),
+        _vm._v(" "),
+        _vm._m(12),
         _vm._v(" "),
         _c(
           "div",
@@ -43322,12 +43497,12 @@ var render = function() {
           1
         ),
         _vm._v(" "),
-        _vm._m(12)
+        _vm._m(13)
       ])
     ]),
     _vm._v(" "),
     _c("footer", { staticClass: "text-light" }, [
-      _vm._m(13),
+      _vm._m(14),
       _vm._v(" "),
       _c("div", { staticClass: "support container-fluid bg-primary" }, [
         _c("div", { staticClass: "container" }, [
@@ -43338,9 +43513,9 @@ var render = function() {
                 "d-flex justify-content-between align-items-stretch flex-wrap"
             },
             [
-              _vm._m(14),
-              _vm._v(" "),
               _vm._m(15),
+              _vm._v(" "),
+              _vm._m(16),
               _vm._v(" "),
               _c("div", {
                 staticClass: "border-right border-light mx-3 d-none d-xl-block"
@@ -43390,7 +43565,7 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm._m(16)
+      _vm._m(17)
     ])
   ])
 }
@@ -43599,6 +43774,18 @@ var staticRenderFns = [
       _c("h2", { staticClass: "h4" }, [
         _vm._v(
           "\n                    Diskon 40% + Domain dan SSL Gratis untuk Anda\n                "
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("ul", [
+      _c("li", [
+        _vm._v(
+          "\n                                    Test\n                                "
         )
       ])
     ])
@@ -60079,8 +60266,7 @@ new Vue(Vue.util.extend({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-window.Popper = __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js")["default"];
+window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js"); // window.Popper = require("popper.js").default;
 
 try {
   window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");

@@ -87,6 +87,19 @@ header {
     .item-packet {
         padding: 0;
     }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .med-gray {
+        background-color: #007fde;
+    }
+    .best {
+        position: absolute;
+        z-index: 100;
+        margin-top: -9px;
+        margin-left: -9px;
+    }
 }
 
 .all-in-packet {
