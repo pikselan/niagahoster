@@ -10,8 +10,8 @@
                         <span class="tag text-light">
                             <i class="fas fa-tag"></i>
                         </span>
-                        <span class="ml-2">
-                            Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]
+                        <span class="ml-4">
+                            Gratis Ebook 9 Cara Cerdas Menggunakan Domain [ x ]
                         </span>
                     </div>
                     <div class="p-2 ml-auto">
@@ -312,7 +312,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="list-group-item">
+                            <li class="list-group-item bg-gray">
                                 <div class="row">
                                     <div class="col-2">
                                         <i
@@ -463,17 +463,19 @@
                         <ul class="list-group">
                             <li class="list-group-item">
                                 <i class="fas fa-check-circle text-success"></i>
-                                Install Larevel 1 klik dengan Softaculous.
+                                Install Larevel <b>1 klik</b> dengan
+                                Softaculous.
                             </li>
                             <li class="list-group-item">
                                 <i class="fas fa-check-circle text-success"></i>
-                                Mendukung ekstensi PHP MCrypt, phar, mbstring,
-                                json, dan fileinfo.
+                                Mendukung ekstensi
+                                <b>PHP MCrypt, phar, mbstring, json,</b> dan
+                                <b>fileinfo.</b>
                             </li>
                             <li class="list-group-item">
                                 <i class="fas fa-check-circle text-success"></i>
-                                Tersedia Composer dan SSH untuk menginstall
-                                packages pilihan anda.
+                                Tersedia <b>Composer</b> dan <b>SSH</b> untuk
+                                menginstall packages pilihan anda.
                             </li>
                         </ul>
                         <p class="small mt-3 font-weight-light">
@@ -535,11 +537,12 @@
                         Linux Hosting yang Stabil dengan Teknologi LVE
                     </h2>
                     <p>
-                        SuperMicro Intel Xeon 24-Cores server dengan RAM 128 GB
-                        dan teknologi LVE CloudLinux untuk stabilitas server
-                        Anda. Dilengkapi dengan SSD untuk kecepatan MySQL dan
-                        caching, Apache load balancer berbasis LiteSpeed
-                        Technologies, CageFS security, Raid-10 Protection dan
+                        SuperMicro <b>Intel Xeon 24-Cores</b> server dengan RAM
+                        <b>128 GB</b> dan teknologi <b>LVE CloudLinux</b> untuk
+                        stabilitas server Anda. Dilengkapi dengan
+                        <b>SSD</b> untuk kecepatan <b>MySQL</b> dan caching,
+                        Apache load balancer berbasis LiteSpeed Technologies,
+                        <b>CageFS</b> security, <b>Raid-10</b> Protection dan
                         auto backup untuk keamanan website PHP Anda
                     </p>
                     <router-link
@@ -562,7 +565,7 @@
                 <div class="container">
                     <div class="d-flex align-items-center">
                         <div class="mr-auto">
-                            <h6 class="font-weight-bold">
+                            <h6 class="">
                                 Bagikan jika Anda menyukai halaman ini.
                             </h6>
                         </div>

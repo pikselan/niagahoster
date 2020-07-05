@@ -10959,6 +10959,11 @@ header .tag-box {
   position: absolute;
 }
 
+header .tag {
+  position: absolute;
+  margin-top: -0.2rem;
+}
+
 header .top-nav .navbar-brand img {
   max-width: 223px;
   width: 35vw;

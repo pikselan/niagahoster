@@ -7418,6 +7418,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -43486,11 +43489,7 @@ var render = function() {
               )
             ]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                    SuperMicro Intel Xeon 24-Cores server dengan RAM 128 GB\n                    dan teknologi LVE CloudLinux untuk stabilitas server\n                    Anda. Dilengkapi dengan SSD untuk kecepatan MySQL dan\n                    caching, Apache load balancer berbasis LiteSpeed\n                    Technologies, CageFS security, Raid-10 Protection dan\n                    auto backup untuk keamanan website PHP Anda\n                "
-              )
-            ]),
+            _vm._m(12),
             _vm._v(" "),
             _c(
               "router-link",
@@ -43505,12 +43504,12 @@ var render = function() {
           1
         ),
         _vm._v(" "),
-        _vm._m(12)
+        _vm._m(13)
       ])
     ]),
     _vm._v(" "),
     _c("footer", { staticClass: "text-light" }, [
-      _vm._m(13),
+      _vm._m(14),
       _vm._v(" "),
       _c("div", { staticClass: "support container-fluid bg-primary" }, [
         _c("div", { staticClass: "container" }, [
@@ -43521,9 +43520,9 @@ var render = function() {
                 "d-flex justify-content-between align-items-stretch flex-wrap"
             },
             [
-              _vm._m(14),
-              _vm._v(" "),
               _vm._m(15),
+              _vm._v(" "),
+              _vm._m(16),
               _vm._v(" "),
               _c("div", {
                 staticClass: "border-right border-light mx-3 d-none d-xl-block"
@@ -43573,7 +43572,7 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm._m(16)
+      _vm._m(17)
     ])
   ])
 }
@@ -43596,9 +43595,9 @@ var staticRenderFns = [
               _c("i", { staticClass: "fas fa-tag" })
             ]),
             _vm._v(" "),
-            _c("span", { staticClass: "ml-2" }, [
+            _c("span", { staticClass: "ml-4" }, [
               _vm._v(
-                "\n                        Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]\n                    "
+                "\n                        Gratis Ebook 9 Cara Cerdas Menggunakan Domain [ x ]\n                    "
               )
             ])
           ]),
@@ -43823,7 +43822,7 @@ var staticRenderFns = [
                   ])
                 ]),
                 _vm._v(" "),
-                _c("li", { staticClass: "list-group-item" }, [
+                _c("li", { staticClass: "list-group-item bg-gray" }, [
                   _c("div", { staticClass: "row" }, [
                     _c("div", { staticClass: "col-2" }, [
                       _c("i", {
@@ -44045,22 +44044,31 @@ var staticRenderFns = [
     return _c("ul", { staticClass: "list-group" }, [
       _c("li", { staticClass: "list-group-item" }, [
         _c("i", { staticClass: "fas fa-check-circle text-success" }),
+        _vm._v("\n                            Install Larevel "),
+        _c("b", [_vm._v("1 klik")]),
         _vm._v(
-          "\n                            Install Larevel 1 klik dengan Softaculous.\n                        "
+          " dengan\n                            Softaculous.\n                        "
         )
       ]),
       _vm._v(" "),
       _c("li", { staticClass: "list-group-item" }, [
         _c("i", { staticClass: "fas fa-check-circle text-success" }),
         _vm._v(
-          "\n                            Mendukung ekstensi PHP MCrypt, phar, mbstring,\n                            json, dan fileinfo.\n                        "
-        )
+          "\n                            Mendukung ekstensi\n                            "
+        ),
+        _c("b", [_vm._v("PHP MCrypt, phar, mbstring, json,")]),
+        _vm._v(" dan\n                            "),
+        _c("b", [_vm._v("fileinfo.")])
       ]),
       _vm._v(" "),
       _c("li", { staticClass: "list-group-item" }, [
         _c("i", { staticClass: "fas fa-check-circle text-success" }),
+        _vm._v("\n                            Tersedia "),
+        _c("b", [_vm._v("Composer")]),
+        _vm._v(" dan "),
+        _c("b", [_vm._v("SSH")]),
         _vm._v(
-          "\n                            Tersedia Composer dan SSH untuk menginstall\n                            packages pilihan anda.\n                        "
+          " untuk\n                            menginstall packages pilihan anda.\n                        "
         )
       ])
     ])
@@ -44226,6 +44234,34 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v("\n                    SuperMicro "),
+      _c("b", [_vm._v("Intel Xeon 24-Cores")]),
+      _vm._v(" server dengan RAM\n                    "),
+      _c("b", [_vm._v("128 GB")]),
+      _vm._v(" dan teknologi "),
+      _c("b", [_vm._v("LVE CloudLinux")]),
+      _vm._v(
+        " untuk\n                    stabilitas server Anda. Dilengkapi dengan\n                    "
+      ),
+      _c("b", [_vm._v("SSD")]),
+      _vm._v(" untuk kecepatan "),
+      _c("b", [_vm._v("MySQL")]),
+      _vm._v(
+        " dan caching,\n                    Apache load balancer berbasis LiteSpeed Technologies,\n                    "
+      ),
+      _c("b", [_vm._v("CageFS")]),
+      _vm._v(" security, "),
+      _c("b", [_vm._v("Raid-10")]),
+      _vm._v(
+        " Protection dan\n                    auto backup untuk keamanan website PHP Anda\n                "
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-lg-6 d-flex" }, [
       _c("img", {
         staticClass: "img-fluid mt-auto",
@@ -44241,7 +44277,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "d-flex align-items-center" }, [
           _c("div", { staticClass: "mr-auto" }, [
-            _c("h6", { staticClass: "font-weight-bold" }, [
+            _c("h6", {}, [
               _vm._v(
                 "\n                            Bagikan jika Anda menyukai halaman ini.\n                        "
               )

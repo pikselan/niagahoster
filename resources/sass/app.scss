@@ -34,6 +34,10 @@ header {
         z-index: -1;
         position: absolute;
     }
+    .tag {
+        position: absolute;
+        margin-top: -0.2rem;
+    }
     .top-nav {
         .navbar-brand {
             img {
