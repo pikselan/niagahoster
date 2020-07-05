@@ -7421,6 +7421,22 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -43081,7 +43097,10 @@ var render = function() {
                         [
                           _c(
                             "router-link",
-                            { staticClass: "nav-link", attrs: { to: "/" } },
+                            {
+                              staticClass: "nav-link",
+                              attrs: { to: "/hosting" }
+                            },
                             [_vm._v("Hosting")]
                           )
                         ],
@@ -43094,7 +43113,10 @@ var render = function() {
                         [
                           _c(
                             "router-link",
-                            { staticClass: "nav-link", attrs: { to: "/" } },
+                            {
+                              staticClass: "nav-link",
+                              attrs: { to: "/domain" }
+                            },
                             [_vm._v("Domain")]
                           )
                         ],
@@ -43107,7 +43129,10 @@ var render = function() {
                         [
                           _c(
                             "router-link",
-                            { staticClass: "nav-link", attrs: { to: "/" } },
+                            {
+                              staticClass: "nav-link",
+                              attrs: { to: "/server" }
+                            },
                             [_vm._v("Server")]
                           )
                         ],
@@ -43120,7 +43145,10 @@ var render = function() {
                         [
                           _c(
                             "router-link",
-                            { staticClass: "nav-link", attrs: { to: "/" } },
+                            {
+                              staticClass: "nav-link",
+                              attrs: { to: "/website" }
+                            },
                             [_vm._v("Website")]
                           )
                         ],
@@ -43133,7 +43161,10 @@ var render = function() {
                         [
                           _c(
                             "router-link",
-                            { staticClass: "nav-link", attrs: { to: "/" } },
+                            {
+                              staticClass: "nav-link",
+                              attrs: { to: "/afiliasi" }
+                            },
                             [_vm._v("Afiliasi")]
                           )
                         ],
@@ -43146,7 +43177,10 @@ var render = function() {
                         [
                           _c(
                             "router-link",
-                            { staticClass: "nav-link", attrs: { to: "/" } },
+                            {
+                              staticClass: "nav-link",
+                              attrs: { to: "/promo" }
+                            },
                             [_vm._v("Promo")]
                           )
                         ],
@@ -43159,7 +43193,10 @@ var render = function() {
                         [
                           _c(
                             "router-link",
-                            { staticClass: "nav-link", attrs: { to: "/" } },
+                            {
+                              staticClass: "nav-link",
+                              attrs: { to: "/pembayaran" }
+                            },
                             [_vm._v("Pembayaran")]
                           )
                         ],
@@ -43172,7 +43209,10 @@ var render = function() {
                         [
                           _c(
                             "router-link",
-                            { staticClass: "nav-link", attrs: { to: "/" } },
+                            {
+                              staticClass: "nav-link",
+                              attrs: { to: "/review" }
+                            },
                             [_vm._v("Review")]
                           )
                         ],
@@ -43185,7 +43225,10 @@ var render = function() {
                         [
                           _c(
                             "router-link",
-                            { staticClass: "nav-link", attrs: { to: "/" } },
+                            {
+                              staticClass: "nav-link",
+                              attrs: { to: "/kontak" }
+                            },
                             [_vm._v("Kontak")]
                           )
                         ],
@@ -43198,7 +43241,7 @@ var render = function() {
                         [
                           _c(
                             "router-link",
-                            { staticClass: "nav-link", attrs: { to: "/" } },
+                            { staticClass: "nav-link", attrs: { to: "/blog" } },
                             [_vm._v("Blog")]
                           )
                         ],
@@ -45030,13 +45073,17 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "text-center" },
+    { staticClass: "text-center mt-3" },
     [
-      _c("h1", { staticClass: "display-1" }, [_vm._v("PAGE NOT FOUND")]),
+      _c("img", { attrs: { src: "/assets/images/logo.jpg", alt: "" } }),
+      _vm._v(" "),
+      _c("h1", { staticClass: "my-5 py-5 border-top border-bottom" }, [
+        _vm._v("\n        PAGE NOT FOUND\n    ")
+      ]),
       _vm._v(" "),
       _c(
         "router-link",
-        { staticClass: "btn btn-primary btn-lg", attrs: { to: "/" } },
+        { staticClass: "btn btn-primary", attrs: { to: "/" } },
         [_vm._v("BACK TO HOME")]
       )
     ],

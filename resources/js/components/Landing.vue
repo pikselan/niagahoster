@@ -47,52 +47,68 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="ml-auto navbar-nav text-dark">
                                 <li class="nav-item active">
-                                    <router-link class="nav-link" :to="'/'"
+                                    <router-link
+                                        class="nav-link"
+                                        :to="'/hosting'"
                                         >Hosting</router-link
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <router-link class="nav-link" :to="'/'"
+                                    <router-link
+                                        class="nav-link"
+                                        :to="'/domain'"
                                         >Domain</router-link
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <router-link class="nav-link" :to="'/'"
+                                    <router-link
+                                        class="nav-link"
+                                        :to="'/server'"
                                         >Server</router-link
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <router-link class="nav-link" :to="'/'"
+                                    <router-link
+                                        class="nav-link"
+                                        :to="'/website'"
                                         >Website</router-link
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <router-link class="nav-link" :to="'/'"
+                                    <router-link
+                                        class="nav-link"
+                                        :to="'/afiliasi'"
                                         >Afiliasi</router-link
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <router-link class="nav-link" :to="'/'"
+                                    <router-link class="nav-link" :to="'/promo'"
                                         >Promo</router-link
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <router-link class="nav-link" :to="'/'"
+                                    <router-link
+                                        class="nav-link"
+                                        :to="'/pembayaran'"
                                         >Pembayaran</router-link
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <router-link class="nav-link" :to="'/'"
+                                    <router-link
+                                        class="nav-link"
+                                        :to="'/review'"
                                         >Review</router-link
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <router-link class="nav-link" :to="'/'"
+                                    <router-link
+                                        class="nav-link"
+                                        :to="'/kontak'"
                                         >Kontak</router-link
                                     >
                                 </li>
                                 <li class="nav-item">
-                                    <router-link class="nav-link" :to="'/'"
+                                    <router-link class="nav-link" :to="'/blog'"
                                         >Blog</router-link
                                     >
                                 </li>
