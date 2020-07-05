@@ -10948,16 +10948,35 @@ h2,
   margin: 0 auto;
 }
 
-header .header-info {
-  min-height: 45px;
-}
-
 header .header-info svg {
   margin-right: 5px !important;
 }
 
-header .top-nav {
-  min-height: 85px;
+header .tag-box {
+  margin-top: -0.8rem;
+  margin-left: -0.5rem;
+  z-index: -1;
+  position: absolute;
+}
+
+header .top-nav .navbar-brand img {
+  max-width: 223px;
+  width: 35vw;
+}
+
+@media (min-width: 992px) {
+  header .top-nav .navbar-brand img {
+    width: 16vw;
+  }
+}
+
+header .top-nav .nav-item .nav-link {
+  color: black;
+}
+
+header .top-nav .nav-item.active .nav-link {
+  color: #00a2f3;
+  font-weight: bold;
 }
 
 .hero h1 {
@@ -11073,6 +11092,7 @@ footer .footer .input-group input {
   background: none;
   border: none;
   padding-left: 15px;
+  border-radius: 50px;
 }
 
 footer .footer .input-group .input-group-prepend .input-group-text {

@@ -7282,6 +7282,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -43087,28 +43098,28 @@ var render = function() {
                     [
                       _c("li", { staticClass: "list-group-item" }, [
                         _vm._v(
-                          "\n                                " +
+                          "\n                            " +
                             _vm._s(hostingCategory.name_category) +
-                            "\n                            "
+                            "\n                        "
                         )
                       ]),
                       _vm._v(" "),
                       _c("li", { staticClass: "list-group-item" }, [
                         _vm._v(
-                          "\n                                Rp " +
+                          "\n                            Rp " +
                             _vm._s(hostingCategory.price)
                         ),
                         _c("br"),
                         _vm._v(
-                          "\n                                Rp " +
+                          "\n                            Rp " +
                             _vm._s(hostingCategory.discount) +
-                            "/bln\n                            "
+                            "/bln\n                        "
                         )
                       ]),
                       _vm._v(" "),
                       _c("li", { staticClass: "list-group-item" }, [
                         _vm._v(
-                          "\n                                938 Pengguna Terdaftar\n                            "
+                          "\n                            938 Pengguna Terdaftar\n                        "
                         )
                       ]),
                       _vm._v(" "),
@@ -43116,8 +43127,9 @@ var render = function() {
                         "li",
                         { staticClass: "list-group-item" },
                         [
+                          _c("i", { staticClass: "fas fa-star" }),
                           _vm._v(
-                            "\n                                0.5X RESOURCE Powerful\n                                "
+                            "\n                            0.5X RESOURCE Powerful\n                            "
                           ),
                           _c(
                             "router-link",
@@ -43162,11 +43174,11 @@ var render = function() {
             _vm._v(" "),
             _c(
               "div",
-              { staticClass: "col-6" },
+              { staticClass: "col-lg-6" },
               [
                 _c("h2", { staticClass: "description h6" }, [
                   _vm._v(
-                    "\n                            Tak perlu menggunakan dedicated server ataupun VPS\n                            yang mahal. Layanan PHP hosting murah kami mendukung\n                            penuh framework favorit Anda.\n                        "
+                    "\n                        Tak perlu menggunakan dedicated server ataupun VPS\n                        yang mahal. Layanan PHP hosting murah kami mendukung\n                        penuh framework favorit Anda.\n                    "
                   )
                 ]),
                 _vm._v(" "),
@@ -43174,7 +43186,7 @@ var render = function() {
                 _vm._v(" "),
                 _c("p", { staticClass: "small mt-3 font-weight-light" }, [
                   _vm._v(
-                    "\n                            Nb. Composer dan SSH hanya tersedia pada paket\n                            Personal dan Bisnis\n                        "
+                    "\n                        Nb. Composer dan SSH hanya tersedia pada paket\n                        Personal dan Bisnis\n                    "
                   )
                 ]),
                 _vm._v(" "),
@@ -43182,7 +43194,7 @@ var render = function() {
                   "router-link",
                   {
                     staticClass:
-                      "btn btn-primary rounded-pill font-weight-bold mt-2",
+                      "btn btn-primary rounded-pill font-weight-bold my-2",
                     attrs: { to: "/" }
                   },
                   [_vm._v("Pilih Hosting Anda")]
@@ -43232,17 +43244,17 @@ var render = function() {
       _c("div", { staticClass: "row" }, [
         _c(
           "div",
-          { staticClass: "col-6" },
+          { staticClass: "col-lg-6" },
           [
             _c("h2", {}, [
               _vm._v(
-                "\n                        Linux Hosting yang Stabil dengan Teknologi LVE\n                    "
+                "\n                    Linux Hosting yang Stabil dengan Teknologi LVE\n                "
               )
             ]),
             _vm._v(" "),
             _c("p", [
               _vm._v(
-                "\n                        SuperMicro Intel Xeon 24-Cores server dengan RAM 128 GB\n                        dan teknologi LVE CloudLinux untuk stabilitas server\n                        Anda. Dilengkapi dengan SSD untuk kecepatan MySQL dan\n                        caching, Apache load balancer berbasis LiteSpeed\n                        Technologies, CageFS security, Raid-10 Protection dan\n                        auto backup untuk keamanan website PHP Anda\n                    "
+                "\n                    SuperMicro Intel Xeon 24-Cores server dengan RAM 128 GB\n                    dan teknologi LVE CloudLinux untuk stabilitas server\n                    Anda. Dilengkapi dengan SSD untuk kecepatan MySQL dan\n                    caching, Apache load balancer berbasis LiteSpeed\n                    Technologies, CageFS security, Raid-10 Protection dan\n                    auto backup untuk keamanan website PHP Anda\n                "
               )
             ]),
             _vm._v(" "),
@@ -43250,7 +43262,7 @@ var render = function() {
               "router-link",
               {
                 staticClass:
-                  "btn btn-primary rounded-pill font-weight-bold mt-2",
+                  "btn btn-primary rounded-pill font-weight-bold my-2",
                 attrs: { to: "/" }
               },
               [_vm._v("Pilih Hosting Anda")]
@@ -43296,9 +43308,7 @@ var render = function() {
                         },
                         [
                           _c("i", { staticClass: "fas fa-comments" }),
-                          _vm._v(
-                            "Live\n                                    Chat"
-                          )
+                          _vm._v("Live\n                                Chat")
                         ]
                       )
                     ],
@@ -43320,39 +43330,44 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "header-info container" }, [
-      _c("div", { staticClass: "d-flex mb-3 small" }, [
-        _c("div", { staticClass: "p-2" }, [
-          _c("span", { staticClass: "tag" }, [
-            _c("i", { staticClass: "fas fa-tag" })
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mr-auto p-2" }, [
-          _vm._v(
-            "\n                        Gratis Ebook 9 Cara Cerdas Menggunakan Domin\n                        "
-          ),
-          _c("i", { staticClass: "far fa-window-close" }),
+    return _c(
+      "section",
+      { staticClass: "header-info container d-none d-md-block" },
+      [
+        _c("div", { staticClass: "d-flex small" }, [
+          _c("div", { staticClass: "m-2" }, [
+            _c("span", { staticClass: "tag-box text-primary" }, [
+              _c("i", { staticClass: "fas fa-bookmark fa-3x" })
+            ]),
+            _vm._v(" "),
+            _c("span", { staticClass: "tag text-light" }, [
+              _c("i", { staticClass: "fas fa-tag" })
+            ]),
+            _vm._v(" "),
+            _c("span", { staticClass: "ml-2" }, [
+              _vm._v(
+                "\n                        Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]\n                    "
+              )
+            ])
+          ]),
           _vm._v(" "),
-          _c("i", { staticClass: "fas fa-star" })
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-2" }, [
-          _c("i", { staticClass: "fas fa-phone-alt" }),
-          _vm._v("0274-5305505\n                    ")
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-2" }, [
-          _c("i", { staticClass: "fas fa-comments" }),
-          _vm._v("Live Chat\n                    ")
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-2" }, [
-          _c("i", { staticClass: "fas fa-user-circle" }),
-          _vm._v("Member Area\n                    ")
+          _c("div", { staticClass: "p-2 ml-auto" }, [
+            _c("i", { staticClass: "fas fa-phone-alt" }),
+            _vm._v("0274-5305505\n                ")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "p-2" }, [
+            _c("i", { staticClass: "fas fa-comments" }),
+            _vm._v("Live Chat\n                ")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "p-2" }, [
+            _c("i", { staticClass: "fas fa-user-circle" }),
+            _vm._v("Member Area\n                ")
+          ])
         ])
-      ])
-    ])
+      ]
+    )
   },
   function() {
     var _vm = this
@@ -43384,14 +43399,14 @@ var staticRenderFns = [
       [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-6" }, [
+            _c("div", { staticClass: "col-lg-6" }, [
               _c("h1", { staticClass: "font-weight-bold mb-3" }, [
                 _vm._v("PHP Hosting")
               ]),
               _vm._v(" "),
               _c("h2", { staticClass: "mb-4" }, [
                 _vm._v(
-                  "\n                            Cepat, handal, penuh dengan modul PHP yang Anda\n                            butuhkan\n                        "
+                  "\n                        Cepat, handal, penuh dengan modul PHP yang Anda\n                        butuhkan\n                    "
                 )
               ]),
               _vm._v(" "),
@@ -43399,35 +43414,36 @@ var staticRenderFns = [
                 _c("li", { staticClass: "list-group-item" }, [
                   _c("i", { staticClass: "fas fa-check-circle text-success" }),
                   _vm._v(
-                    "\n                                Solusi PHP untuk performa query yang lebih cepat\n                            "
+                    "\n                            Solusi PHP untuk performa query yang lebih cepat\n                        "
                   )
                 ]),
                 _vm._v(" "),
                 _c("li", { staticClass: "list-group-item" }, [
                   _c("i", { staticClass: "fas fa-check-circle text-success" }),
                   _vm._v(
-                    "\n                                Konsumsi memori yang lebih rendah\n                            "
+                    "\n                            Konsumsi memori yang lebih rendah\n                        "
                   )
                 ]),
                 _vm._v(" "),
                 _c("li", { staticClass: "list-group-item" }, [
                   _c("i", { staticClass: "fas fa-check-circle text-success" }),
                   _vm._v(
-                    "\n                                Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP\n                                5.7\n                            "
+                    "\n                            Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP\n                            5.7\n                        "
                   )
                 ]),
                 _vm._v(" "),
                 _c("li", { staticClass: "list-group-item" }, [
                   _c("i", { staticClass: "fas fa-check-circle text-success" }),
                   _vm._v(
-                    "\n                                Fitur enkripsi IonCube dan Zend Guard Loaders\n                            "
+                    "\n                            Fitur enkripsi IonCube dan Zend Guard Loaders\n                        "
                   )
                 ])
               ])
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "col-6" }, [
+            _c("div", { staticClass: "col-lg-6" }, [
               _c("img", {
+                staticClass: "img-fluid",
                 attrs: {
                   src: "/assets/svg/illustration_banner_php_hosting.svg",
                   alt: ""
@@ -43457,6 +43473,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "col-3" }, [
               _c("div", { staticClass: "image" }, [
                 _c("img", {
+                  staticClass: "img-fluid",
                   attrs: {
                     src: "/assets/svg/ic_php_hosting_zendguard.svg",
                     alt: ""
@@ -43470,6 +43487,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "col-3" }, [
               _c("div", { staticClass: "image" }, [
                 _c("img", {
+                  staticClass: "img-fluid",
                   attrs: {
                     src: "/assets/svg/ic_php_hosting_composer.svg",
                     alt: ""
@@ -43483,6 +43501,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "col-3" }, [
               _c("div", { staticClass: "image" }, [
                 _c("img", {
+                  staticClass: "img-fluid",
                   attrs: {
                     src: "/assets/svg/ic_php_hosting_ioncube.svg",
                     alt: ""
@@ -43504,13 +43523,13 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-12 mb-5" }, [
       _c("h2", { staticClass: "h3 font-weight-bold" }, [
         _vm._v(
-          "\n                        Paket Hosting Singapura yang Tepat\n                    "
+          "\n                    Paket Hosting Singapura yang Tepat\n                "
         )
       ]),
       _vm._v(" "),
       _c("h2", { staticClass: "h4" }, [
         _vm._v(
-          "\n                        Diskon 40% + Domain dan SSL Gratis untuk Anda\n                    "
+          "\n                    Diskon 40% + Domain dan SSL Gratis untuk Anda\n                "
         )
       ])
     ])
@@ -43546,7 +43565,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("div", { staticClass: "col-10" }, [
                       _vm._v(
-                        "\n                                        max execution time 300s\n                                    "
+                        "\n                                    max execution time 300s\n                                "
                       )
                     ])
                   ])
@@ -43562,7 +43581,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("div", { staticClass: "col-10" }, [
                       _vm._v(
-                        "\n                                        max execution time 300s\n                                    "
+                        "\n                                    max execution time 300s\n                                "
                       )
                     ])
                   ])
@@ -43578,7 +43597,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("div", { staticClass: "col-10" }, [
                       _vm._v(
-                        "\n                                        php memory limit 1024 MB\n                                    "
+                        "\n                                    php memory limit 1024 MB\n                                "
                       )
                     ])
                   ])
@@ -43598,7 +43617,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("div", { staticClass: "col-10" }, [
                       _vm._v(
-                        "\n                                        post max size 128 MB\n                                    "
+                        "\n                                    post max size 128 MB\n                                "
                       )
                     ])
                   ])
@@ -43614,7 +43633,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("div", { staticClass: "col-10" }, [
                       _vm._v(
-                        "\n                                        upload max filesize 128 MB\n                                    "
+                        "\n                                    upload max filesize 128 MB\n                                "
                       )
                     ])
                   ])
@@ -43630,7 +43649,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("div", { staticClass: "col-10" }, [
                       _vm._v(
-                        "\n                                        max input vars 2500\n                                    "
+                        "\n                                    max input vars 2500\n                                "
                       )
                     ])
                   ])
@@ -43665,7 +43684,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h6", [
             _vm._v(
-              "\n                        Pilih mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka\n                        Anda!\n                    "
+              "\n                    Pilih mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka\n                    Anda!\n                "
             )
           ])
         ]),
@@ -43681,7 +43700,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h6", [
             _vm._v(
-              "\n                        Nikmati MySQL versi terbaru, tercepat dan kaya akan\n                        fitur.\n                    "
+              "\n                    Nikmati MySQL versi terbaru, tercepat dan kaya akan\n                    fitur.\n                "
             )
           ])
         ]),
@@ -43697,7 +43716,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h6", [
             _vm._v(
-              "\n                        Kelola website dengan panel canggih yang familiar di\n                        hati Anda\n                    "
+              "\n                    Kelola website dengan panel canggih yang familiar di\n                    hati Anda\n                "
             )
           ])
         ]),
@@ -43713,7 +43732,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h6", [
             _vm._v(
-              "\n                        Data center yang mendukung kelangsungan website Anda\n                        24/7.\n                    "
+              "\n                    Data center yang mendukung kelangsungan website Anda\n                    24/7.\n                "
             )
           ])
         ]),
@@ -43725,13 +43744,13 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h3", { staticClass: "h5 font-weight-bold" }, [
             _vm._v(
-              "\n                        Database InnoDB Unlimited\n                    "
+              "\n                    Database InnoDB Unlimited\n                "
             )
           ]),
           _vm._v(" "),
           _c("h6", [
             _vm._v(
-              "\n                        Jumlah dan ukuran database yang tumbuh sesuai kebutuhan\n                        Anda.\n                    "
+              "\n                    Jumlah dan ukuran database yang tumbuh sesuai kebutuhan\n                    Anda.\n                "
             )
           ])
         ]),
@@ -43750,7 +43769,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("h6", [
             _vm._v(
-              "\n                        Mendukung s/d 25 max_user_connections dan 100\n                        max_connections.\n                    "
+              "\n                    Mendukung s/d 25 max_user_connections dan 100\n                    max_connections.\n                "
             )
           ])
         ])
@@ -43775,21 +43794,21 @@ var staticRenderFns = [
       _c("li", { staticClass: "list-group-item" }, [
         _c("i", { staticClass: "fas fa-check-circle text-success" }),
         _vm._v(
-          "\n                                Install Larevel 1 klik dengan Softaculous.\n                            "
+          "\n                            Install Larevel 1 klik dengan Softaculous.\n                        "
         )
       ]),
       _vm._v(" "),
       _c("li", { staticClass: "list-group-item" }, [
         _c("i", { staticClass: "fas fa-check-circle text-success" }),
         _vm._v(
-          "\n                                Mendukung ekstensi PHP MCrypt, phar, mbstring,\n                                json, dan fileinfo.\n                            "
+          "\n                            Mendukung ekstensi PHP MCrypt, phar, mbstring,\n                            json, dan fileinfo.\n                        "
         )
       ]),
       _vm._v(" "),
       _c("li", { staticClass: "list-group-item" }, [
         _c("i", { staticClass: "fas fa-check-circle text-success" }),
         _vm._v(
-          "\n                                Tersedia Composer dan SSH untuk menginstall\n                                packages pilihan anda.\n                            "
+          "\n                            Tersedia Composer dan SSH untuk menginstall\n                            packages pilihan anda.\n                        "
         )
       ])
     ])
@@ -43798,8 +43817,11 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-6" }, [
-      _c("img", { attrs: { src: "/assets/svg/support-laravel.svg", alt: "" } })
+    return _c("div", { staticClass: "col-lg-6 d-flex" }, [
+      _c("img", {
+        staticClass: "img-fluid mt-auto",
+        attrs: { src: "/assets/svg/support-laravel.svg", alt: "" }
+      })
     ])
   },
   function() {
@@ -43809,7 +43831,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-12 text-center mb-5" }, [
       _c("h2", {}, [
         _vm._v(
-          "\n                        Modul Lengkap untuk Menjalankan Aplikasi PHP Anda\n                    "
+          "\n                    Modul Lengkap untuk Menjalankan Aplikasi PHP Anda\n                "
         )
       ])
     ])
@@ -43819,7 +43841,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-3" }, [
-      _vm._v("\n                    IcePHP"),
+      _vm._v("\n                IcePHP"),
       _c("br"),
       _vm._v("apc"),
       _c("br"),
@@ -43847,7 +43869,7 @@ var staticRenderFns = [
       _c("br"),
       _vm._v("crack"),
       _c("br"),
-      _vm._v("dba\n                ")
+      _vm._v("dba\n            ")
     ])
   },
   function() {
@@ -43855,7 +43877,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-3" }, [
-      _vm._v("\n                    http"),
+      _vm._v("\n                http"),
       _c("br"),
       _vm._v("huffman"),
       _c("br"),
@@ -43883,7 +43905,7 @@ var staticRenderFns = [
       _c("br"),
       _vm._v("json"),
       _c("br"),
-      _vm._v("ldap\n                ")
+      _vm._v("ldap\n            ")
     ])
   },
   function() {
@@ -43891,7 +43913,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-3" }, [
-      _vm._v("\n                    nd_pdo_mysql"),
+      _vm._v("\n                nd_pdo_mysql"),
       _c("br"),
       _vm._v("oauth"),
       _c("br"),
@@ -43919,7 +43941,7 @@ var staticRenderFns = [
       _c("br"),
       _vm._v("pdo_pgsql"),
       _c("br"),
-      _vm._v("phalcom\n                ")
+      _vm._v("phalcom\n            ")
     ])
   },
   function() {
@@ -43927,7 +43949,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-3" }, [
-      _vm._v("\n                    stats"),
+      _vm._v("\n                stats"),
       _c("br"),
       _vm._v("stem"),
       _c("br"),
@@ -43953,15 +43975,18 @@ var staticRenderFns = [
       _c("br"),
       _vm._v("uri_template"),
       _c("br"),
-      _vm._v("uuid\n                ")
+      _vm._v("uuid\n            ")
     ])
   },
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-6" }, [
-      _c("img", { attrs: { src: "/assets/images/image-support.png", alt: "" } })
+    return _c("div", { staticClass: "col-lg-6 d-flex" }, [
+      _c("img", {
+        staticClass: "img-fluid mt-auto",
+        attrs: { src: "/assets/images/image-support.png", alt: "" }
+      })
     ])
   },
   function() {
@@ -43974,7 +43999,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "mr-auto" }, [
             _c("h6", { staticClass: "font-weight-bold" }, [
               _vm._v(
-                "\n                                Bagikan jika Anda menyukai halaman ini.\n                            "
+                "\n                            Bagikan jika Anda menyukai halaman ini.\n                        "
               )
             ])
           ]),
@@ -44025,9 +44050,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", {}, [
       _c("h2", [
-        _vm._v("\n                                Perlu "),
+        _vm._v("\n                            Perlu "),
         _c("b", [_vm._v("BANTUAN?")]),
-        _vm._v(" Hubungi Kami :\n                                "),
+        _vm._v(" Hubungi Kami :\n                            "),
         _c("b", [_vm._v("0274-5305505")])
       ])
     ])
@@ -44045,28 +44070,28 @@ var staticRenderFns = [
             ]),
             _vm._v(" "),
             _c("p", [
-              _vm._v("\n                                Telp: 0274-2885822"),
+              _vm._v("\n                            Telp: 0274-2885822"),
               _c("br"),
               _vm._v("Senin - Minggu"),
               _c("br"),
               _vm._v(
-                "24\n                                Jam Non Stop\n                            "
+                "24\n                            Jam Non Stop\n                        "
               )
             ]),
             _vm._v(" "),
             _c("p", [
               _vm._v(
-                "\n                                Jl. Palagan Tentara Pelajar"
+                "\n                            Jl. Palagan Tentara Pelajar"
               ),
               _c("br"),
               _vm._v(
-                "\n                                No 81 Jongkang, Sariharjo, "
+                "\n                            No 81 Jongkang, Sariharjo, "
               ),
               _c("br"),
-              _vm._v("\n                                Ngaglik, Sleman "),
+              _vm._v("\n                            Ngaglik, Sleman "),
               _c("br"),
               _vm._v(
-                "\n                                Daerah Istimewa Yogyakarta 55581\n                            "
+                "\n                            Daerah Istimewa Yogyakarta 55581\n                        "
               )
             ])
           ]),
@@ -44199,7 +44224,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-3 mt-5 pt-3" }, [
             _c("h6", { staticClass: "font-weight-bold mb-4" }, [
               _vm._v(
-                "\n                                SERVICE HOSTING\n                            "
+                "\n                            SERVICE HOSTING\n                        "
               )
             ]),
             _vm._v(" "),
@@ -44392,7 +44417,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "col-3 mt-5 pt-3" }, [
             _c("h6", { staticClass: "font-weight-bold mb-4" }, [
               _vm._v(
-                "\n                                KENAPA PILIH NIAGAHOSTER?\n                            "
+                "\n                            KENAPA PILIH NIAGAHOSTER?\n                        "
               )
             ]),
             _vm._v(" "),
@@ -44488,7 +44513,7 @@ var staticRenderFns = [
                   _c("div", { staticClass: "input-group-prepend" }, [
                     _c("div", { staticClass: "input-group-text" }, [
                       _vm._v(
-                        "\n                                                Berlangganan\n                                            "
+                        "\n                                            Berlangganan\n                                        "
                       )
                     ])
                   ])
@@ -44497,7 +44522,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("li", { staticClass: "font-weight-light" }, [
                 _vm._v(
-                  "\n                                    Dapatkan promo dan konten menarik dari\n                                    penyedia hosting terbaik Anda\n                                "
+                  "\n                                Dapatkan promo dan konten menarik dari\n                                penyedia hosting terbaik Anda\n                            "
                 )
               ])
             ])
@@ -44530,7 +44555,7 @@ var staticRenderFns = [
               _vm._v("PEMBAYARAN")
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "d-flex" }, [
+            _c("div", { staticClass: "d-flex flex-nowrap overflow-auto" }, [
               _c("div", { staticClass: "border rounded p-1 mr-2" }, [
                 _c("img", {
                   attrs: { src: "/assets/svg/payment/bca.svg", alt: "" }
@@ -44576,7 +44601,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("p", { staticClass: "font-weight-light mt-3" }, [
               _vm._v(
-                "\n                                Aktivasi instan dengan e-Payment. Hosting dan\n                                domain langsung aktif!\n                            "
+                "\n                            Aktivasi instan dengan e-Payment. Hosting dan\n                            domain langsung aktif!\n                        "
               )
             ])
           ]),
@@ -44585,11 +44610,11 @@ var staticRenderFns = [
             "div",
             { staticClass: "col-12 pt-4 pb-5 border-top border-dark" },
             [
-              _c("div", { staticClass: "d-flex font-weight-light" }, [
+              _c("div", { staticClass: "d-flex flex-wrap font-weight-light" }, [
                 _c("div", { staticClass: "mr-auto" }, [
                   _c("span", [
                     _vm._v(
-                      "Copyright ©2016 Niagahoster | Hosting\n                                        powered by PHP7, CloudLinux, CloudFlare,\n                                        BitNinja and DC Biznet Technovillage\n                                        Jakarta"
+                      "Copyright ©2016 Niagahoster | Hosting\n                                    powered by PHP7, CloudLinux, CloudFlare,\n                                    BitNinja and DC Biznet Technovillage\n                                    Jakarta"
                     )
                   ]),
                   _vm._v(" "),
@@ -44597,7 +44622,7 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("span", [
                     _vm._v(
-                      "Cloud VPS Murah powered by Webuzo\n                                        Softaculous, Intel SSD and cloud\n                                        computing technology"
+                      "Cloud VPS Murah powered by Webuzo\n                                    Softaculous, Intel SSD and cloud\n                                    computing technology"
                     )
                   ])
                 ]),
@@ -44605,7 +44630,7 @@ var staticRenderFns = [
                 _c("div", {}, [
                   _c("span", [
                     _vm._v(
-                      "Syarat dan Ketentuan | Kebijakan\n                                        Privasi"
+                      "Syarat dan Ketentuan | Kebijakan\n                                    Privasi"
                     )
                   ])
                 ])

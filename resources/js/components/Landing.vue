@@ -1,19 +1,20 @@
 <template>
     <div>
         <header>
-            <section class="header-info container">
-                <div class="d-flex mb-3 small">
-                    <div class="p-2">
-                        <span class="tag">
+            <section class="header-info container d-none d-md-block">
+                <div class="d-flex small">
+                    <div class="m-2">
+                        <span class="tag-box text-primary"
+                            ><i class="fas fa-bookmark fa-3x" style=""></i
+                        ></span>
+                        <span class="tag text-light">
                             <i class="fas fa-tag"></i>
                         </span>
+                        <span class="ml-2">
+                            Gratis Ebook 9 Cara Cerdas Menggunakan Domain [x]
+                        </span>
                     </div>
-                    <div class="mr-auto p-2">
-                        Gratis Ebook 9 Cara Cerdas Menggunakan Domin
-                        <i class="far fa-window-close"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <div class="p-2">
+                    <div class="p-2 ml-auto">
                         <i class="fas fa-phone-alt"></i>0274-5305505
                     </div>
                     <div class="p-2">
@@ -104,7 +105,7 @@
         <section class="hero container-fluid border-bottom pb-5 mb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <h1 class="font-weight-bold mb-3">PHP Hosting</h1>
                         <h2 class="mb-4">
                             Cepat, handal, penuh dengan modul PHP yang Anda
@@ -130,10 +131,11 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <img
                             src="/assets/svg/illustration_banner_php_hosting.svg"
                             alt=""
+                            class="img-fluid"
                         />
                     </div>
                 </div>
@@ -148,6 +150,7 @@
                         <img
                             src="/assets/svg/ic_php_hosting_zendguard.svg"
                             alt=""
+                            class="img-fluid"
                         />
                     </div>
                     <h6>PHP Zend Guard Loader</h6>
@@ -157,6 +160,7 @@
                         <img
                             src="/assets/svg/ic_php_hosting_composer.svg"
                             alt=""
+                            class="img-fluid"
                         />
                     </div>
                     <h6>PHP Composer</h6>
@@ -167,6 +171,7 @@
                         <img
                             src="/assets/svg/ic_php_hosting_ioncube.svg"
                             alt=""
+                            class="img-fluid"
                         />
                     </div>
                     <h6>PHP ionCube Loader</h6>
@@ -201,6 +206,7 @@
                                 938 Pengguna Terdaftar
                             </li>
                             <li class="list-group-item">
+                                <i class="fas fa-star"></i>
                                 0.5X RESOURCE Powerful
                                 <router-link
                                     :to="'/'"
@@ -377,7 +383,7 @@
                     <div class="col-12 text-center">
                         <h2 class=" mb-5">Mendukung Penuh Framework Laravel</h2>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <h2 class="description h6">
                             Tak perlu menggunakan dedicated server ataupun VPS
                             yang mahal. Layanan PHP hosting murah kami mendukung
@@ -405,12 +411,16 @@
                         </p>
                         <router-link
                             :to="'/'"
-                            class="btn btn-primary rounded-pill font-weight-bold mt-2"
+                            class="btn btn-primary rounded-pill font-weight-bold my-2"
                             >Pilih Hosting Anda</router-link
                         >
                     </div>
-                    <div class="col-6">
-                        <img src="/assets/svg/support-laravel.svg" alt="" />
+                    <div class="col-lg-6 d-flex">
+                        <img
+                            src="/assets/svg/support-laravel.svg"
+                            alt=""
+                            class="img-fluid mt-auto"
+                        />
                     </div>
                 </div>
             </div>
@@ -445,7 +455,7 @@
         </section>
         <section class="choose-us container pt-5 mt-5">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6">
                     <h2 class="">
                         Linux Hosting yang Stabil dengan Teknologi LVE
                     </h2>
@@ -459,12 +469,16 @@
                     </p>
                     <router-link
                         :to="'/'"
-                        class="btn btn-primary rounded-pill font-weight-bold mt-2"
+                        class="btn btn-primary rounded-pill font-weight-bold my-2"
                         >Pilih Hosting Anda</router-link
                     >
                 </div>
-                <div class="col-6">
-                    <img src="/assets/images/image-support.png" alt="" />
+                <div class="col-lg-6 d-flex">
+                    <img
+                        src="/assets/images/image-support.png"
+                        alt=""
+                        class="img-fluid mt-auto"
+                    />
                 </div>
             </div>
         </section>
@@ -826,7 +840,7 @@
                         </div>
                         <div class="payment col-12 mt-5">
                             <h6 class="font-weight-bold mb-4">PEMBAYARAN</h6>
-                            <div class="d-flex">
+                            <div class="d-flex flex-nowrap overflow-auto">
                                 <div class="border rounded p-1 mr-2">
                                     <img
                                         src="/assets/svg/payment/bca.svg"
@@ -876,7 +890,7 @@
                             </p>
                         </div>
                         <div class="col-12 pt-4 pb-5 border-top border-dark">
-                            <div class="d-flex font-weight-light">
+                            <div class="d-flex flex-wrap font-weight-light">
                                 <div class="mr-auto">
                                     <span
                                         >Copyright ©2016 Niagahoster | Hosting
@@ -904,9 +918,6 @@
             </div>
         </footer>
     </div>
-    <!-- <div>
-		<router-link class="btn btn-primary" :to="'/'">TO</router-link>
-	</div> -->
 </template>
 
 <script>
