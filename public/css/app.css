@@ -11092,6 +11092,7 @@ footer .footer ul a {
 footer .footer .input-group {
   background: white;
   border-radius: 50px;
+  max-width: 240px;
 }
 
 footer .footer .input-group input {

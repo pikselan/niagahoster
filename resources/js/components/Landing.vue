@@ -322,7 +322,7 @@
                         alt=""
                     />
                     <h3 class="h5 font-weight-bold">PHP Semua Versi</h3>
-                    <h6>
+                    <h6 class="d-none d-sm-block">
                         Pilih mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka
                         Anda!
                     </h6>
@@ -330,7 +330,7 @@
                 <div class="col-6 col-md-4 mb-5">
                     <img src="/assets/svg/all_in_packet_mysql.svg" alt="" />
                     <h3 class="h5 font-weight-bold">MySQL Versi 5.6</h3>
-                    <h6>
+                    <h6 class="d-none d-sm-block">
                         Nikmati MySQL versi terbaru, tercepat dan kaya akan
                         fitur.
                     </h6>
@@ -338,7 +338,7 @@
                 <div class="col-6 col-md-4 mb-5">
                     <img src="/assets/svg/all_in_packet_cpanel.svg" alt="" />
                     <h3 class="h5 font-weight-bold">Panel Hosting cPanel</h3>
-                    <h6>
+                    <h6 class="d-none d-sm-block">
                         Kelola website dengan panel canggih yang familiar di
                         hati Anda
                     </h6>
@@ -346,7 +346,7 @@
                 <div class="col-6 col-md-4 mb-5">
                     <img src="/assets/svg/all_in_packet_uptime.svg" alt="" />
                     <h3 class="h5 font-weight-bold">Garansi Uptime 99.9%</h3>
-                    <h6>
+                    <h6 class="d-none d-sm-block">
                         Data center yang mendukung kelangsungan website Anda
                         24/7.
                     </h6>
@@ -356,7 +356,7 @@
                     <h3 class="h5 font-weight-bold">
                         Database InnoDB Unlimited
                     </h3>
-                    <h6>
+                    <h6 class="d-none d-sm-block">
                         Jumlah dan ukuran database yang tumbuh sesuai kebutuhan
                         Anda.
                     </h6>
@@ -367,7 +367,7 @@
                         alt=""
                     />
                     <h3 class="h5 font-weight-bold">Wildcard Remote MySQL</h3>
-                    <h6>
+                    <h6 class="d-none d-sm-block">
                         Mendukung s/d 25 max_user_connections dan 100
                         max_connections.
                     </h6>
@@ -577,8 +577,12 @@
             <div class="footer container-fluid">
                 <div class="container">
                     <div class="row">
-                        <div class="col-3 mt-5 pt-3">
-                            <h6 class="font-weight-bold mb-4">HUBUNGI KAMI</h6>
+                        <div
+                            class="col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3"
+                        >
+                            <h6 class="font-weight-bold mb-2 mb-md-4">
+                                HUBUNGI KAMI
+                            </h6>
                             <p>
                                 Telp: 0274-2885822<br />Senin - Minggu<br />24
                                 Jam Non Stop
@@ -590,8 +594,12 @@
                                 Daerah Istimewa Yogyakarta 55581
                             </p>
                         </div>
-                        <div class="col-3 mt-5 pt-3">
-                            <h6 class="font-weight-bold mb-4">LAYANAN</h6>
+                        <div
+                            class="col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3"
+                        >
+                            <h6 class="font-weight-bold mb-2 mb-md-4">
+                                LAYANAN
+                            </h6>
                             <ul>
                                 <li>
                                     <a
@@ -661,8 +669,10 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-3 mt-5 pt-3">
-                            <h6 class="font-weight-bold mb-4">
+                        <div
+                            class="col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3"
+                        >
+                            <h6 class="font-weight-bold mb-2 mb-md-4">
                                 SERVICE HOSTING
                             </h6>
                             <ul>
@@ -710,8 +720,12 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-3 mt-5 pt-3">
-                            <h6 class="font-weight-bold mb-4">TUTORIAL</h6>
+                        <div
+                            class="col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3"
+                        >
+                            <h6 class="font-weight-bold mb-2 mb-md-4">
+                                TUTORIAL
+                            </h6>
                             <ul>
                                 <li>
                                     <a
@@ -742,8 +756,12 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-3 mt-5 pt-3">
-                            <h6 class="font-weight-bold mb-4">TENTANG KAMI</h6>
+                        <div
+                            class="col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3"
+                        >
+                            <h6 class="font-weight-bold mb-2 mb-md-4">
+                                TENTANG KAMI
+                            </h6>
                             <ul>
                                 <li>
                                     <a
@@ -776,8 +794,10 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-3 mt-5 pt-3">
-                            <h6 class="font-weight-bold mb-4">
+                        <div
+                            class="col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3"
+                        >
+                            <h6 class="font-weight-bold mb-2 mb-md-4">
                                 KENAPA PILIH NIAGAHOSTER?
                             </h6>
                             <ul>
@@ -819,8 +839,12 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-3 mt-5 pt-3">
-                            <h6 class="font-weight-bold mb-4">NEWSLETTER</h6>
+                        <div
+                            class="col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3"
+                        >
+                            <h6 class="font-weight-bold mb-2 mb-md-4">
+                                NEWSLETTER
+                            </h6>
                             <ul>
                                 <li>
                                     <div class="input-group mb-2 mr-sm-2">
@@ -843,27 +867,31 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-3 mt-5 pt-3">
-                            <div class="d-flex mt-4 pt-3">
+                        <div
+                            class="col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3"
+                        >
+                            <div class="d-flex mt-4 pt-3 flex-wrap">
                                 <div
-                                    class="item-social mr-3 border rounded-circle"
+                                    class="item-social mr-3 mb-3 border rounded-circle"
                                 >
                                     <i class="fab fa-facebook-f fa-2x"></i>
                                 </div>
                                 <div
-                                    class="item-social mr-3 border rounded-circle"
+                                    class="item-social mr-3 mb-3 border rounded-circle"
                                 >
                                     <i class="fab fa-twitter fa-2x"></i>
                                 </div>
                                 <div
-                                    class="item-social mr-3 border rounded-circle"
+                                    class="item-social mr-3 mb-3 border rounded-circle"
                                 >
                                     <i class="fab fa-google-plus-g fa-2x"></i>
                                 </div>
                             </div>
                         </div>
                         <div class="payment col-12 mt-5">
-                            <h6 class="font-weight-bold mb-4">PEMBAYARAN</h6>
+                            <h6 class="font-weight-bold mb-2 mb-md-4">
+                                PEMBAYARAN
+                            </h6>
                             <div class="d-flex flex-nowrap overflow-auto">
                                 <div class="border rounded p-1 mr-2">
                                     <img
@@ -914,7 +942,9 @@
                             </p>
                         </div>
                         <div class="col-12 pt-4 pb-5 border-top border-dark">
-                            <div class="d-flex flex-wrap font-weight-light">
+                            <div
+                                class="d-flex flex-wrap font-weight-light text-center text-md-left"
+                            >
                                 <div class="mr-auto">
                                     <span
                                         >Copyright ©2016 Niagahoster | Hosting
@@ -929,7 +959,7 @@
                                         computing technology</span
                                     >
                                 </div>
-                                <div class="">
+                                <div class="mt-5 mt-md-0 mx-auto mx-md-0">
                                     <span
                                         >Syarat dan Ketentuan | Kebijakan
                                         Privasi</span

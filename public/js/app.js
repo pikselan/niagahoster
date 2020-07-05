@@ -7317,6 +7317,36 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -43721,7 +43751,7 @@ var staticRenderFns = [
             _vm._v("PHP Semua Versi")
           ]),
           _vm._v(" "),
-          _c("h6", [
+          _c("h6", { staticClass: "d-none d-sm-block" }, [
             _vm._v(
               "\n                    Pilih mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka\n                    Anda!\n                "
             )
@@ -43737,7 +43767,7 @@ var staticRenderFns = [
             _vm._v("MySQL Versi 5.6")
           ]),
           _vm._v(" "),
-          _c("h6", [
+          _c("h6", { staticClass: "d-none d-sm-block" }, [
             _vm._v(
               "\n                    Nikmati MySQL versi terbaru, tercepat dan kaya akan\n                    fitur.\n                "
             )
@@ -43753,7 +43783,7 @@ var staticRenderFns = [
             _vm._v("Panel Hosting cPanel")
           ]),
           _vm._v(" "),
-          _c("h6", [
+          _c("h6", { staticClass: "d-none d-sm-block" }, [
             _vm._v(
               "\n                    Kelola website dengan panel canggih yang familiar di\n                    hati Anda\n                "
             )
@@ -43769,7 +43799,7 @@ var staticRenderFns = [
             _vm._v("Garansi Uptime 99.9%")
           ]),
           _vm._v(" "),
-          _c("h6", [
+          _c("h6", { staticClass: "d-none d-sm-block" }, [
             _vm._v(
               "\n                    Data center yang mendukung kelangsungan website Anda\n                    24/7.\n                "
             )
@@ -43787,7 +43817,7 @@ var staticRenderFns = [
             )
           ]),
           _vm._v(" "),
-          _c("h6", [
+          _c("h6", { staticClass: "d-none d-sm-block" }, [
             _vm._v(
               "\n                    Jumlah dan ukuran database yang tumbuh sesuai kebutuhan\n                    Anda.\n                "
             )
@@ -43806,7 +43836,7 @@ var staticRenderFns = [
             _vm._v("Wildcard Remote MySQL")
           ]),
           _vm._v(" "),
-          _c("h6", [
+          _c("h6", { staticClass: "d-none d-sm-block" }, [
             _vm._v(
               "\n                    Mendukung s/d 25 max_user_connections dan 100\n                    max_connections.\n                "
             )
@@ -44114,495 +44144,554 @@ var staticRenderFns = [
     return _c("div", { staticClass: "footer container-fluid" }, [
       _c("div", { staticClass: "container" }, [
         _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-3 mt-5 pt-3" }, [
-            _c("h6", { staticClass: "font-weight-bold mb-4" }, [
-              _vm._v("HUBUNGI KAMI")
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v("\n                            Telp: 0274-2885822"),
-              _c("br"),
-              _vm._v("Senin - Minggu"),
-              _c("br"),
-              _vm._v(
-                "24\n                            Jam Non Stop\n                        "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "\n                            Jl. Palagan Tentara Pelajar"
-              ),
-              _c("br"),
-              _vm._v(
-                "\n                            No 81 Jongkang, Sariharjo, "
-              ),
-              _c("br"),
-              _vm._v("\n                            Ngaglik, Sleman "),
-              _c("br"),
-              _vm._v(
-                "\n                            Daerah Istimewa Yogyakarta 55581\n                        "
-              )
-            ])
-          ]),
+          _c(
+            "div",
+            { staticClass: "col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3" },
+            [
+              _c("h6", { staticClass: "font-weight-bold mb-2 mb-md-4" }, [
+                _vm._v(
+                  "\n                            HUBUNGI KAMI\n                        "
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("\n                            Telp: 0274-2885822"),
+                _c("br"),
+                _vm._v("Senin - Minggu"),
+                _c("br"),
+                _vm._v(
+                  "24\n                            Jam Non Stop\n                        "
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "\n                            Jl. Palagan Tentara Pelajar"
+                ),
+                _c("br"),
+                _vm._v(
+                  "\n                            No 81 Jongkang, Sariharjo, "
+                ),
+                _c("br"),
+                _vm._v("\n                            Ngaglik, Sleman "),
+                _c("br"),
+                _vm._v(
+                  "\n                            Daerah Istimewa Yogyakarta 55581\n                        "
+                )
+              ])
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "col-3 mt-5 pt-3" }, [
-            _c("h6", { staticClass: "font-weight-bold mb-4" }, [
-              _vm._v("LAYANAN")
-            ]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/domain-murah"
-                    }
-                  },
-                  [_vm._v("Domain")]
+          _c(
+            "div",
+            { staticClass: "col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3" },
+            [
+              _c("h6", { staticClass: "font-weight-bold mb-2 mb-md-4" }, [
+                _vm._v(
+                  "\n                            LAYANAN\n                        "
                 )
               ]),
               _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/hosting-indonesia"
-                    }
-                  },
-                  [_vm._v("Shared Hosting")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/cloud-hosting"
-                    }
-                  },
-                  [_vm._v("Cloud Hosting")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/cloud-vps-hosting"
-                    }
-                  },
-                  [_vm._v("Cloud VPS Hosting")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/promosi-transfer"
-                    }
-                  },
-                  [_vm._v("Transfer Hosting")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/membuat-blog-weebly"
-                    }
-                  },
-                  [_vm._v("Web Builder")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: { href: "https://www.niagahoster.co.id/ssl-murah" }
-                  },
-                  [_vm._v("Keamanan SSL/HTTPS")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c("a", { attrs: { href: "https://www.niagaweb.co.id/" } }, [
-                  _vm._v("Jasa Pembuatan Website")
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/domain-murah"
+                      }
+                    },
+                    [_vm._v("Domain")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/hosting-indonesia"
+                      }
+                    },
+                    [_vm._v("Shared Hosting")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/cloud-hosting"
+                      }
+                    },
+                    [_vm._v("Cloud Hosting")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/cloud-vps-hosting"
+                      }
+                    },
+                    [_vm._v("Cloud VPS Hosting")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/promosi-transfer"
+                      }
+                    },
+                    [_vm._v("Transfer Hosting")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href:
+                          "https://www.niagahoster.co.id/membuat-blog-weebly"
+                      }
+                    },
+                    [_vm._v("Web Builder")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: { href: "https://www.niagahoster.co.id/ssl-murah" }
+                    },
+                    [_vm._v("Keamanan SSL/HTTPS")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "https://www.niagaweb.co.id/" } }, [
+                    _vm._v("Jasa Pembuatan Website")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: { href: "https://www.niagahoster.co.id/afiliasi" }
+                    },
+                    [_vm._v("Program Afiliasi")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "https://www.niagahoster.co.id/whois" } },
+                    [_vm._v("Whois")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://status.niagahoster.co.id/",
+                        target: "__blank"
+                      }
+                    },
+                    [_vm._v("Niagahoster Status")]
+                  )
                 ])
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/afiliasi" } },
-                  [_vm._v("Program Afiliasi")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/whois" } },
-                  [_vm._v("Whois")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://status.niagahoster.co.id/",
-                      target: "__blank"
-                    }
-                  },
-                  [_vm._v("Niagahoster Status")]
-                )
               ])
-            ])
-          ]),
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "col-3 mt-5 pt-3" }, [
-            _c("h6", { staticClass: "font-weight-bold mb-4" }, [
-              _vm._v(
-                "\n                            SERVICE HOSTING\n                        "
-              )
-            ]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/hosting-murah"
-                    }
-                  },
-                  [_vm._v("Hosting Murah")]
+          _c(
+            "div",
+            { staticClass: "col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3" },
+            [
+              _c("h6", { staticClass: "font-weight-bold mb-2 mb-md-4" }, [
+                _vm._v(
+                  "\n                            SERVICE HOSTING\n                        "
                 )
               ]),
               _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/hosting-indonesia"
-                    }
-                  },
-                  [_vm._v("Hosting Indonesia")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/hosting-singapore"
-                    }
-                  },
-                  [_vm._v("Hosting Singapore SG")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/wordpress-hosting"
-                    }
-                  },
-                  [_vm._v("Hosting Wordpress")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/email-hosting"
-                    }
-                  },
-                  [_vm._v("Email Hosting")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/reseller-hosting"
-                    }
-                  },
-                  [_vm._v("Reseller Hosting")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href:
-                        "https://www.niagahoster.co.id/web-hosting-unlimited"
-                    }
-                  },
-                  [_vm._v("Web Hosting Unlimited")]
-                )
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/hosting-murah"
+                      }
+                    },
+                    [_vm._v("Hosting Murah")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/hosting-indonesia"
+                      }
+                    },
+                    [_vm._v("Hosting Indonesia")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/hosting-singapore"
+                      }
+                    },
+                    [_vm._v("Hosting Singapore SG")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/wordpress-hosting"
+                      }
+                    },
+                    [_vm._v("Hosting Wordpress")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/email-hosting"
+                      }
+                    },
+                    [_vm._v("Email Hosting")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/reseller-hosting"
+                      }
+                    },
+                    [_vm._v("Reseller Hosting")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href:
+                          "https://www.niagahoster.co.id/web-hosting-unlimited"
+                      }
+                    },
+                    [_vm._v("Web Hosting Unlimited")]
+                  )
+                ])
               ])
-            ])
-          ]),
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "col-3 mt-5 pt-3" }, [
-            _c("h6", { staticClass: "font-weight-bold mb-4" }, [
-              _vm._v("TUTORIAL")
-            ]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/ebook" } },
-                  [_vm._v("Ebook Gratis")]
+          _c(
+            "div",
+            { staticClass: "col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3" },
+            [
+              _c("h6", { staticClass: "font-weight-bold mb-2 mb-md-4" }, [
+                _vm._v(
+                  "\n                            TUTORIAL\n                        "
                 )
               ]),
               _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/kb" } },
-                  [_vm._v("Knowledgebase")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/blog" } },
-                  [_vm._v("Blog")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: { href: "https://www.niagahoster.co.id/pembayaran" }
-                  },
-                  [_vm._v("Cara Pembayaran")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://course.niagahoster.co.id" } },
-                  [_vm._v("Niaga Course")]
-                )
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "https://www.niagahoster.co.id/ebook" } },
+                    [_vm._v("Ebook Gratis")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "https://www.niagahoster.co.id/kb" } },
+                    [_vm._v("Knowledgebase")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "https://www.niagahoster.co.id/blog" } },
+                    [_vm._v("Blog")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/pembayaran"
+                      }
+                    },
+                    [_vm._v("Cara Pembayaran")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "https://course.niagahoster.co.id" } },
+                    [_vm._v("Niaga Course")]
+                  )
+                ])
               ])
-            ])
-          ]),
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "col-3 mt-5 pt-3" }, [
-            _c("h6", { staticClass: "font-weight-bold mb-4" }, [
-              _vm._v("TENTANG KAMI")
-            ]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/about-us" } },
-                  [_vm._v("Tentang")]
+          _c(
+            "div",
+            { staticClass: "col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3" },
+            [
+              _c("h6", { staticClass: "font-weight-bold mb-2 mb-md-4" }, [
+                _vm._v(
+                  "\n                            TENTANG KAMI\n                        "
                 )
               ]),
               _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/promosi" } },
-                  [_vm._v("Penawaran & Promo Spesial")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/poin" } },
-                  [_vm._v("Niagahoster Poin")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/karir" } },
-                  [_vm._v("Karir")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/kontak" } },
-                  [_vm._v("Kontak Kami")]
-                )
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: { href: "https://www.niagahoster.co.id/about-us" }
+                    },
+                    [_vm._v("Tentang")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: { href: "https://www.niagahoster.co.id/promosi" }
+                    },
+                    [_vm._v("Penawaran & Promo Spesial")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "https://www.niagahoster.co.id/poin" } },
+                    [_vm._v("Niagahoster Poin")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "https://www.niagahoster.co.id/karir" } },
+                    [_vm._v("Karir")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "https://www.niagahoster.co.id/kontak" } },
+                    [_vm._v("Kontak Kami")]
+                  )
+                ])
               ])
-            ])
-          ]),
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "col-3 mt-5 pt-3" }, [
-            _c("h6", { staticClass: "font-weight-bold mb-4" }, [
-              _vm._v(
-                "\n                            KENAPA PILIH NIAGAHOSTER?\n                        "
-              )
-            ]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/hosting-terbaik"
-                    }
-                  },
-                  [_vm._v("Hosting Terbaik")]
+          _c(
+            "div",
+            { staticClass: "col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3" },
+            [
+              _c("h6", { staticClass: "font-weight-bold mb-2 mb-md-4" }, [
+                _vm._v(
+                  "\n                            KENAPA PILIH NIAGAHOSTER?\n                        "
                 )
               ]),
               _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/datacenter-hosting"
-                    }
-                  },
-                  [_vm._v("Datacenter Hosting Terbaik")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href:
-                        "https://www.niagahoster.co.id/hosting-indonesia#hosting-price"
-                    }
-                  },
-                  [_vm._v("Domain Gratis")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/domain-gratis"
-                    }
-                  },
-                  [_vm._v("Bagi-bagi Domain Gratis")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.niagahoster.co.id/hosting-gratis"
-                    }
-                  },
-                  [_vm._v("Bagi-bagi Hosting Gratis")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", [
-                _c(
-                  "a",
-                  { attrs: { href: "https://www.niagahoster.co.id/review" } },
-                  [_vm._v("Review Pelanggan")]
-                )
+              _c("ul", [
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/hosting-terbaik"
+                      }
+                    },
+                    [_vm._v("Hosting Terbaik")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/datacenter-hosting"
+                      }
+                    },
+                    [_vm._v("Datacenter Hosting Terbaik")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href:
+                          "https://www.niagahoster.co.id/hosting-indonesia#hosting-price"
+                      }
+                    },
+                    [_vm._v("Domain Gratis")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/domain-gratis"
+                      }
+                    },
+                    [_vm._v("Bagi-bagi Domain Gratis")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.niagahoster.co.id/hosting-gratis"
+                      }
+                    },
+                    [_vm._v("Bagi-bagi Hosting Gratis")]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c(
+                    "a",
+                    { attrs: { href: "https://www.niagahoster.co.id/review" } },
+                    [_vm._v("Review Pelanggan")]
+                  )
+                ])
               ])
-            ])
-          ]),
+            ]
+          ),
           _vm._v(" "),
-          _c("div", { staticClass: "col-3 mt-5 pt-3" }, [
-            _c("h6", { staticClass: "font-weight-bold mb-4" }, [
-              _vm._v("NEWSLETTER")
-            ]),
-            _vm._v(" "),
-            _c("ul", [
-              _c("li", [
-                _c("div", { staticClass: "input-group mb-2 mr-sm-2" }, [
-                  _c("input", {
-                    staticClass: "form-control form-control-sm",
-                    attrs: {
-                      type: "text",
-                      id: "newsletter",
-                      placeholder: "Email"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "input-group-prepend" }, [
-                    _c("div", { staticClass: "input-group-text" }, [
-                      _vm._v(
-                        "\n                                            Berlangganan\n                                        "
-                      )
+          _c(
+            "div",
+            { staticClass: "col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3" },
+            [
+              _c("h6", { staticClass: "font-weight-bold mb-2 mb-md-4" }, [
+                _vm._v(
+                  "\n                            NEWSLETTER\n                        "
+                )
+              ]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c("div", { staticClass: "input-group mb-2 mr-sm-2" }, [
+                    _c("input", {
+                      staticClass: "form-control form-control-sm",
+                      attrs: {
+                        type: "text",
+                        id: "newsletter",
+                        placeholder: "Email"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "input-group-prepend" }, [
+                      _c("div", { staticClass: "input-group-text" }, [
+                        _vm._v(
+                          "\n                                            Berlangganan\n                                        "
+                        )
+                      ])
                     ])
                   ])
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "font-weight-light" }, [
+                  _vm._v(
+                    "\n                                Dapatkan promo dan konten menarik dari\n                                penyedia hosting terbaik Anda\n                            "
+                  )
                 ])
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "font-weight-light" }, [
-                _vm._v(
-                  "\n                                Dapatkan promo dan konten menarik dari\n                                penyedia hosting terbaik Anda\n                            "
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-12 col-sm-6 col-md-3 mt-3 mt-md-5 pt-lg-3" },
+            [
+              _c("div", { staticClass: "d-flex mt-4 pt-3 flex-wrap" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "item-social mr-3 mb-3 border rounded-circle"
+                  },
+                  [_c("i", { staticClass: "fab fa-facebook-f fa-2x" })]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "item-social mr-3 mb-3 border rounded-circle"
+                  },
+                  [_c("i", { staticClass: "fab fa-twitter fa-2x" })]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "item-social mr-3 mb-3 border rounded-circle"
+                  },
+                  [_c("i", { staticClass: "fab fa-google-plus-g fa-2x" })]
                 )
               ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-3 mt-5 pt-3" }, [
-            _c("div", { staticClass: "d-flex mt-4 pt-3" }, [
-              _c(
-                "div",
-                { staticClass: "item-social mr-3 border rounded-circle" },
-                [_c("i", { staticClass: "fab fa-facebook-f fa-2x" })]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "item-social mr-3 border rounded-circle" },
-                [_c("i", { staticClass: "fab fa-twitter fa-2x" })]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "item-social mr-3 border rounded-circle" },
-                [_c("i", { staticClass: "fab fa-google-plus-g fa-2x" })]
-              )
-            ])
-          ]),
+            ]
+          ),
           _vm._v(" "),
           _c("div", { staticClass: "payment col-12 mt-5" }, [
-            _c("h6", { staticClass: "font-weight-bold mb-4" }, [
-              _vm._v("PEMBAYARAN")
+            _c("h6", { staticClass: "font-weight-bold mb-2 mb-md-4" }, [
+              _vm._v(
+                "\n                            PEMBAYARAN\n                        "
+              )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "d-flex flex-nowrap overflow-auto" }, [
@@ -44660,31 +44749,38 @@ var staticRenderFns = [
             "div",
             { staticClass: "col-12 pt-4 pb-5 border-top border-dark" },
             [
-              _c("div", { staticClass: "d-flex flex-wrap font-weight-light" }, [
-                _c("div", { staticClass: "mr-auto" }, [
-                  _c("span", [
-                    _vm._v(
-                      "Copyright ©2016 Niagahoster | Hosting\n                                    powered by PHP7, CloudLinux, CloudFlare,\n                                    BitNinja and DC Biznet Technovillage\n                                    Jakarta"
-                    )
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "d-flex flex-wrap font-weight-light text-center text-md-left"
+                },
+                [
+                  _c("div", { staticClass: "mr-auto" }, [
+                    _c("span", [
+                      _vm._v(
+                        "Copyright ©2016 Niagahoster | Hosting\n                                    powered by PHP7, CloudLinux, CloudFlare,\n                                    BitNinja and DC Biznet Technovillage\n                                    Jakarta"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c("span", [
+                      _vm._v(
+                        "Cloud VPS Murah powered by Webuzo\n                                    Softaculous, Intel SSD and cloud\n                                    computing technology"
+                      )
+                    ])
                   ]),
                   _vm._v(" "),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c("span", [
-                    _vm._v(
-                      "Cloud VPS Murah powered by Webuzo\n                                    Softaculous, Intel SSD and cloud\n                                    computing technology"
-                    )
+                  _c("div", { staticClass: "mt-5 mt-md-0 mx-auto mx-md-0" }, [
+                    _c("span", [
+                      _vm._v(
+                        "Syarat dan Ketentuan | Kebijakan\n                                    Privasi"
+                      )
+                    ])
                   ])
-                ]),
-                _vm._v(" "),
-                _c("div", {}, [
-                  _c("span", [
-                    _vm._v(
-                      "Syarat dan Ketentuan | Kebijakan\n                                    Privasi"
-                    )
-                  ])
-                ])
-              ])
+                ]
+              )
             ]
           )
         ])
