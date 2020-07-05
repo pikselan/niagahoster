@@ -11007,6 +11007,10 @@ header .top-nav .nav-item.active .nav-link {
   padding: 0;
 }
 
+.list-packet h6 {
+  margin: 0;
+}
+
 .list-packet ul {
   list-style-type: none;
   padding: 0;

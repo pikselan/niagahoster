@@ -189,7 +189,7 @@
                     </h2>
                 </div>
                 <div
-                    class="item-packet col-6 col-md-3 mb-3"
+                    class="item-packet col-12 col-sm-6 col-md-3 mb-3 px-3 px-sm-0"
                     v-for="hostingCategory in hostingCategories"
                     :key="hostingCategory.id"
                 >
@@ -261,8 +261,8 @@
                                 </b>
                                 Pengguna Terdaftar
                             </li>
-                            <li class="list-group-item">
-                                <h6 class="font-weight-bold">
+                            <li class="list-group-item small">
+                                <span class="font-weight-bold">
                                     {{
                                         JSON.stringify(
                                             JSON.parse(hostingCategory.data)
@@ -270,18 +270,14 @@
                                         )
                                     }}
                                     RESOURCE POWER
-                                </h6>
-                                <ul>
-                                    <li>
-                                        Test
-                                    </li>
-                                </ul>
-
-                                <div>{{ hostingCategory.data }}</div>
-
+                                </span>
+                                <ul
+                                    class=""
+                                    v-html="listData(hostingCategory.data)"
+                                ></ul>
                                 <router-link
                                     :to="'/'"
-                                    class="btn btn-outline-dark rounded-pill font-weight-bold mt-5 mb-3"
+                                    class="btn btn-outline-dark rounded-pill font-weight-bold mt-3 mb-3"
                                     v-bind:class="{
                                         'bg-primary text-light border-primary':
                                             hostingCategory.best
@@ -1069,6 +1065,13 @@ export default {
         formatNum(value) {
             let val = (value / 1).toFixed(0).replace(".", ",");
             return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+        },
+        listData(val) {
+            let arr = [];
+            JSON.parse(val).item.map(e => {
+                arr.push(`<li><b>${e.value}</b> ${e.unit}</li>`);
+            });
+            return arr.join("");
         }
     }
 };

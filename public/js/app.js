@@ -7418,10 +7418,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -7443,6 +7439,13 @@ __webpack_require__.r(__webpack_exports__);
     formatNum: function formatNum(value) {
       var val = (value / 1).toFixed(0).replace(".", ",");
       return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    },
+    listData: function listData(val) {
+      var arr = [];
+      JSON.parse(val).item.map(function (e) {
+        arr.push("<li><b>".concat(e.value, "</b> ").concat(e.unit, "</li>"));
+      });
+      return arr.join("");
     }
   }
 });
@@ -43225,7 +43228,8 @@ var render = function() {
               "div",
               {
                 key: hostingCategory.id,
-                staticClass: "item-packet col-6 col-md-3 mb-3"
+                staticClass:
+                  "item-packet col-12 col-sm-6 col-md-3 mb-3 px-3 px-sm-0"
               },
               [
                 _c(
@@ -43340,9 +43344,9 @@ var render = function() {
                         _vm._v(" "),
                         _c(
                           "li",
-                          { staticClass: "list-group-item" },
+                          { staticClass: "list-group-item small" },
                           [
-                            _c("h6", { staticClass: "font-weight-bold" }, [
+                            _c("span", { staticClass: "font-weight-bold" }, [
                               _vm._v(
                                 "\n                                " +
                                   _vm._s(
@@ -43354,15 +43358,19 @@ var render = function() {
                               )
                             ]),
                             _vm._v(" "),
-                            _vm._m(5, true),
-                            _vm._v(" "),
-                            _c("div", [_vm._v(_vm._s(hostingCategory.data))]),
+                            _c("ul", {
+                              domProps: {
+                                innerHTML: _vm._s(
+                                  _vm.listData(hostingCategory.data)
+                                )
+                              }
+                            }),
                             _vm._v(" "),
                             _c(
                               "router-link",
                               {
                                 staticClass:
-                                  "btn btn-outline-dark rounded-pill font-weight-bold mt-5 mb-3",
+                                  "btn btn-outline-dark rounded-pill font-weight-bold mt-3 mb-3",
                                 class: {
                                   "bg-primary text-light border-primary":
                                     hostingCategory.best
@@ -43386,11 +43394,11 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _vm._m(6),
+    _vm._m(5),
     _vm._v(" "),
     _c("div", { staticClass: "divider" }),
     _vm._v(" "),
-    _vm._m(7),
+    _vm._m(6),
     _vm._v(" "),
     _c("div", { staticClass: "divider" }),
     _vm._v(" "),
@@ -43402,7 +43410,7 @@ var render = function() {
       [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "row" }, [
-            _vm._m(8),
+            _vm._m(7),
             _vm._v(" "),
             _c(
               "div",
@@ -43414,7 +43422,7 @@ var render = function() {
                   )
                 ]),
                 _vm._v(" "),
-                _vm._m(9),
+                _vm._m(8),
                 _vm._v(" "),
                 _c("p", { staticClass: "small mt-3 font-weight-light" }, [
                   _vm._v(
@@ -43435,7 +43443,7 @@ var render = function() {
               1
             ),
             _vm._v(" "),
-            _vm._m(10)
+            _vm._m(9)
           ])
         ])
       ]
@@ -43443,9 +43451,9 @@ var render = function() {
     _vm._v(" "),
     _c("section", { staticClass: "list-module container pt-5 mt-5" }, [
       _c("div", { staticClass: "row" }, [
-        _vm._m(11),
+        _vm._m(10),
         _vm._v(" "),
-        _vm._m(12),
+        _vm._m(11),
         _vm._v(" "),
         _c(
           "div",
@@ -43497,12 +43505,12 @@ var render = function() {
           1
         ),
         _vm._v(" "),
-        _vm._m(13)
+        _vm._m(12)
       ])
     ]),
     _vm._v(" "),
     _c("footer", { staticClass: "text-light" }, [
-      _vm._m(14),
+      _vm._m(13),
       _vm._v(" "),
       _c("div", { staticClass: "support container-fluid bg-primary" }, [
         _c("div", { staticClass: "container" }, [
@@ -43513,9 +43521,9 @@ var render = function() {
                 "d-flex justify-content-between align-items-stretch flex-wrap"
             },
             [
-              _vm._m(15),
+              _vm._m(14),
               _vm._v(" "),
-              _vm._m(16),
+              _vm._m(15),
               _vm._v(" "),
               _c("div", {
                 staticClass: "border-right border-light mx-3 d-none d-xl-block"
@@ -43565,7 +43573,7 @@ var render = function() {
         ])
       ]),
       _vm._v(" "),
-      _vm._m(17)
+      _vm._m(16)
     ])
   ])
 }
@@ -43774,18 +43782,6 @@ var staticRenderFns = [
       _c("h2", { staticClass: "h4" }, [
         _vm._v(
           "\n                    Diskon 40% + Domain dan SSL Gratis untuk Anda\n                "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", [
-      _c("li", [
-        _vm._v(
-          "\n                                    Test\n                                "
         )
       ])
     ])
